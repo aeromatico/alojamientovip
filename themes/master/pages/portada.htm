@@ -1,0 +1,67 @@
+title = "Portada"
+url = "/"
+layout = "master"
+is_hidden = 0
+
+[builderList editor]
+modelClass = "Aero\Manager\Models\Editor"
+scope = "-"
+scopeValue = "{{ :scope }}"
+displayColumn = "id"
+noRecordsMessage = "No records found"
+detailsPage = "-"
+detailsUrlParameter = "id"
+pageNumber = "{{ :page }}"
+==
+{% set e = editor.records[0] %}
+
+        <!-- Promo Area Start -->
+        <div id="banner">
+            <div class="banner--bg-animate" data-bg-img="{{'assets/img/banner-slider-img/rocket.png' | theme }}"></div>
+            <div class="vc-parent">
+                <div class="vc-child">
+                    <!-- Promo Slider Start -->
+                    <div class="banner--slider BannerSlider">
+                    
+                        {% for c in e.landing_promos %}
+                        <!-- Promo Item Start -->
+                        <div class="banner--item">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <!-- Promo Content Start -->
+                                        <div class="banner--content">
+                                            <h3>{{ c.epigraph }}</h3>
+                                            <h2>{{ c.title }}</h2>
+            
+                                            <p>
+                                                {{ c.content | raw }}
+                                            </p>
+            
+                                            <a href="{{ c.button_link }}" class="btn--primary btn--ripple">{{ c.button_text }}</a>
+                                        </div>
+                                        <!-- Promo Content End -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Promo Item End -->
+                        {% endfor %}         
+                    </div>
+                    <!-- Promo Slider End -->
+                </div>
+            </div>
+        </div>
+        <!-- Promo Area End -->
+        
+        {% partial 'widgets/features' %}
+        
+        {% partial 'widgets/domains' %}
+        
+        {% partial 'packs/single' %}
+      
+        {% partial 'packs/multi' %}
+        
+        {% partial 'widgets/addons' %}
+        
+        {% partial 'widgets/faqs-warranty' %}

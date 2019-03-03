@@ -1,0 +1,108 @@
+1551581168a:1:{s:19:"widgets/domains.htm";a:6:{s:8:"fileName";s:19:"widgets/domains.htm";s:7:"content";s:3119:"==
+<!-- Domain Search Area Start -->
+        <div id="domainSearch" class="bg--whitesmoke">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <!-- Section Title Start -->
+                        <div class="section--title block">
+                            <h2>Busca tu <span>dominio</span></h2>
+                        </div>
+                        <!-- Section Title End -->
+                        <!-- Domain Search Form Start -->
+                        <div class="domain-search--form">
+                            <form action="https://dashboard.alojamiento.vip/domainchecker.php?systpl=HostWHMCS" method="post">
+                                <div class="input--text">
+                                    <input type="text" name="domain" placeholder="Ingresa una idea" class="form-control">
+                                    <span class="highlight"></span>
+                                </div>
+                                
+                                <div class="input--radio">
+                                    <label class="radio-inline">
+                                        <input type="radio" name="ext" value=".com" checked="checked">
+                                        <span>.com</span>
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="ext" value=".net">
+                                        <span>.net</span>
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="ext" value=".org">
+                                        <span>.org</span>
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="ext" value=".info">
+                                        <span>.info</span>
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="ext" value=".biz">
+                                        <span>.biz</span>
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="ext" value=".us">
+                                        <span>.us</span>
+                                    </label>
+                                </div>
+                                
+                                <button type="submit" class="btn--primary btn--ripple">¡Verificar disponibilidad!</button>
+                            </form>
+                        </div>
+                        <!-- Domain Search Form End -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Domain Search Area End -->";s:5:"mtime";i:1551565247;s:6:"markup";s:3116:"<!-- Domain Search Area Start -->
+        <div id="domainSearch" class="bg--whitesmoke">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <!-- Section Title Start -->
+                        <div class="section--title block">
+                            <h2>Busca tu <span>dominio</span></h2>
+                        </div>
+                        <!-- Section Title End -->
+                        <!-- Domain Search Form Start -->
+                        <div class="domain-search--form">
+                            <form action="https://dashboard.alojamiento.vip/domainchecker.php?systpl=HostWHMCS" method="post">
+                                <div class="input--text">
+                                    <input type="text" name="domain" placeholder="Ingresa una idea" class="form-control">
+                                    <span class="highlight"></span>
+                                </div>
+                                
+                                <div class="input--radio">
+                                    <label class="radio-inline">
+                                        <input type="radio" name="ext" value=".com" checked="checked">
+                                        <span>.com</span>
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="ext" value=".net">
+                                        <span>.net</span>
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="ext" value=".org">
+                                        <span>.org</span>
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="ext" value=".info">
+                                        <span>.info</span>
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="ext" value=".biz">
+                                        <span>.biz</span>
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="ext" value=".us">
+                                        <span>.us</span>
+                                    </label>
+                                </div>
+                                
+                                <button type="submit" class="btn--primary btn--ripple">¡Verificar disponibilidad!</button>
+                            </form>
+                        </div>
+                        <!-- Domain Search Form End -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Domain Search Area End -->";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}

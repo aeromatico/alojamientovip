@@ -1,0 +1,78 @@
+1551580829a:1:{s:11:"hosting.htm";a:9:{s:8:"fileName";s:11:"hosting.htm";s:7:"content";s:1203:"title = "Hosting"
+url = "/hosting"
+layout = "master"
+is_hidden = 0
+==
+<!-- Banner Area Start -->
+        <div id="banner">
+
+            <div class="vc-parent">
+                <div class="vc-child">
+                        <div class="banner--content--page text-center">
+                            
+                            <h2>Shared</h2>
+                            <h3>Hosting</h3>
+                                
+                        </div>
+             <span class="scroll-btn">
+                 <a href="#">
+                     <span class="mouse">
+                     <span>
+                     </span>
+                     </span>
+                 </a>
+             </span>                           
+                </div>
+            </div>
+         
+        </div>
+        <!-- Banner Area End -->
+        {% partial 'packs/single' %}
+
+        {% partial 'packs/compare-single' %}
+        
+        {% partial 'widgets/addons' %}
+        
+        {% partial 'packs/multi' %}  
+        
+        {% partial 'packs/compare-multi' %}
+        
+        {% partial 'widgets/faqs-hosting' %}        
+        
+        {% partial 'widgets/faqs-warranty' %}";s:5:"mtime";i:1551565267;s:6:"markup";s:1133:"<!-- Banner Area Start -->
+        <div id="banner">
+
+            <div class="vc-parent">
+                <div class="vc-child">
+                        <div class="banner--content--page text-center">
+                            
+                            <h2>Shared</h2>
+                            <h3>Hosting</h3>
+                                
+                        </div>
+             <span class="scroll-btn">
+                 <a href="#">
+                     <span class="mouse">
+                     <span>
+                     </span>
+                     </span>
+                 </a>
+             </span>                           
+                </div>
+            </div>
+         
+        </div>
+        <!-- Banner Area End -->
+        {% partial 'packs/single' %}
+
+        {% partial 'packs/compare-single' %}
+        
+        {% partial 'widgets/addons' %}
+        
+        {% partial 'packs/multi' %}  
+        
+        {% partial 'packs/compare-multi' %}
+        
+        {% partial 'widgets/faqs-hosting' %}        
+        
+        {% partial 'widgets/faqs-warranty' %}";s:4:"code";N;s:5:"title";s:7:"Hosting";s:3:"url";s:8:"/hosting";s:6:"layout";s:6:"master";s:9:"is_hidden";s:1:"0";}}

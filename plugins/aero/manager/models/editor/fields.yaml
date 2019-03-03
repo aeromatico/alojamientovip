@@ -1,0 +1,32 @@
+tabs:
+    fields:
+        landing_promos:
+            label: 'Promo manager'
+            prompt: Add
+            maxItems: '5'
+            span: full
+            type: repeater
+            tab: 'Landing Page'
+            form:
+                fields:
+                    epigraph:
+                        label: Epigraph
+                        span: auto
+                        type: text
+                    title:
+                        label: Title
+                        span: auto
+                        type: text
+                    content:
+                        label: Content
+                        size: small
+                        span: full
+                        type: richeditor
+                    button_text:
+                        label: 'Button text'
+                        span: auto
+                        type: text
+                    button_link:
+                        label: 'Button link'
+                        span: auto
+                        type: text

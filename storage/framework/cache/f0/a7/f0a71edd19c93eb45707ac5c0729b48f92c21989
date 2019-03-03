@@ -1,0 +1,46 @@
+1551581168a:1:{s:14:"menus/main.htm";a:6:{s:8:"fileName";s:14:"menus/main.htm";s:7:"content";s:1833:"==
+<div class="header--login-btn">
+                            <a href="https://dashboard.alojamiento.vip/clientarea.php" class="btn--primary btn--ripple">Clientes</a>
+                        </div>
+                        
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="active"><a href="{{app}}/?rel=menu"><i class="fas fa-home"></i></a></li>
+                            <li class="dropdown">
+                                <a href="https://dashboard.alojamiento.vip/cart.php?a=add&domain=register" data-toggle="dropdown"> Dominios<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="https://dashboard.alojamiento.vip/cart.php?a=add&domain=register">Registrar</a></li>
+                                    <li><a href="https://dashboard.alojamiento.vip/cart.php?a=add&domain=transfer">Transferir</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="{{app}}/hosting">Hosting</a></li>
+                            <li class="dropdown">
+                                <a data-toggle="dropdown" style="cursor: pointer"><i class="fas fa-headset"></i> Soporte<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="https://m.me/378786882676005" target="_blank">Live Chat</a></li>
+                                    <li><a href="https://dashboard.alojamiento.vip/submitticket.php">Enviar ticket</a></li>
+                                    <li><a href="https://dashboard.alojamiento.vip/contact.php">Contacto</a></li>
+                                </ul>
+                            </li>
+                        </ul>";s:5:"mtime";i:1551570378;s:6:"markup";s:1830:"<div class="header--login-btn">
+                            <a href="https://dashboard.alojamiento.vip/clientarea.php" class="btn--primary btn--ripple">Clientes</a>
+                        </div>
+                        
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="active"><a href="{{app}}/?rel=menu"><i class="fas fa-home"></i></a></li>
+                            <li class="dropdown">
+                                <a href="https://dashboard.alojamiento.vip/cart.php?a=add&domain=register" data-toggle="dropdown"> Dominios<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="https://dashboard.alojamiento.vip/cart.php?a=add&domain=register">Registrar</a></li>
+                                    <li><a href="https://dashboard.alojamiento.vip/cart.php?a=add&domain=transfer">Transferir</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="{{app}}/hosting">Hosting</a></li>
+                            <li class="dropdown">
+                                <a data-toggle="dropdown" style="cursor: pointer"><i class="fas fa-headset"></i> Soporte<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="https://m.me/378786882676005" target="_blank">Live Chat</a></li>
+                                    <li><a href="https://dashboard.alojamiento.vip/submitticket.php">Enviar ticket</a></li>
+                                    <li><a href="https://dashboard.alojamiento.vip/contact.php">Contacto</a></li>
+                                </ul>
+                            </li>
+                        </ul>";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}

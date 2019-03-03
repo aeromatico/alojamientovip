@@ -1,0 +1,118 @@
+1551581168a:1:{s:20:"widgets/features.htm";a:6:{s:8:"fileName";s:20:"widgets/features.htm";s:7:"content";s:3409:"==
+<!-- Features Area Start -->
+        <div id="services">
+            <div class="container">
+                <!-- Section Title Start -->
+                <div class="section--title">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h2>Lo hacemos <span>simple</span></h2>
+                        </div>
+                        <div class="col-md-6 text-center">
+                            <p>Planteamos nuestra oferta de servicios desde el punto de vista de los desarrolladores y empresarios, cubriendo sus demandas con opciones sólidas y completas.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Section Title End -->
+                <div class="row">
+                    <div class="col-md-4 service--item-h">
+                        <!-- Service Item Start -->
+                        <div class="service--item">
+                            <div class="service--icon">
+                                <img src="{{'assets/img/icono-cordial.png' | theme }}" alt="">
+                            </div>
+                            <div class="service--content">
+                                <h3><span>Asesoría</span> cordial</h3>
+                                <p>No seas tímido, nuestro equipo está entrenado para brindarte la mejor asistencia, <a href="https://m.me/alojamiento.vip" class="aeroLink" target="_blank">pregunta</a>.</p>
+                            </div>
+                        </div>
+                        <!-- Service Item End -->
+                    </div>
+                    <div class="col-md-4 service--item-h">
+                        <!-- Service Item Start -->
+                        <div class="service--item">
+                            <div class="service--icon">
+                                <img src="{{'assets/img/icono-mudanza.png' | theme }}" alt="">
+                            </div>
+                            <div class="service--content">
+                                <h3><span>Mudanzas</span> asistidas</h3>
+                                <p>Transferimos tu dominio y asignamos un experto para mudar tu web. <a href="https://m.me/alojamiento.vip" class="aeroLink" target="_blank">consulta</a>.</p>
+                            </div>
+                        </div>
+                        <!-- Service Item End -->
+                    </div>
+                    <div class="col-md-4 service--item-h">
+                        <!-- Service Item Start -->
+                        <div class="service--item">
+                            <div class="service--icon">
+                                <img src="{{'assets/img/icono-paypal.png' | theme }}" alt="">
+                            </div>
+                            <div class="service--content">
+                                <h3><span>Pago</span> seguro</h3>
+                                <p>Compra con confianza, tus pagos están protegidos por Paypal, <a href="https://www.paypal.com/bo/webapps/mpp/purchase-protection" class="aeroLink" target="_blank">lee más</a>.</p>
+                            </div>
+                        </div>
+                        <!-- Service Item End -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Features Area End -->";s:5:"mtime";i:1551565411;s:6:"markup";s:3406:"<!-- Features Area Start -->
+        <div id="services">
+            <div class="container">
+                <!-- Section Title Start -->
+                <div class="section--title">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h2>Lo hacemos <span>simple</span></h2>
+                        </div>
+                        <div class="col-md-6 text-center">
+                            <p>Planteamos nuestra oferta de servicios desde el punto de vista de los desarrolladores y empresarios, cubriendo sus demandas con opciones sólidas y completas.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Section Title End -->
+                <div class="row">
+                    <div class="col-md-4 service--item-h">
+                        <!-- Service Item Start -->
+                        <div class="service--item">
+                            <div class="service--icon">
+                                <img src="{{'assets/img/icono-cordial.png' | theme }}" alt="">
+                            </div>
+                            <div class="service--content">
+                                <h3><span>Asesoría</span> cordial</h3>
+                                <p>No seas tímido, nuestro equipo está entrenado para brindarte la mejor asistencia, <a href="https://m.me/alojamiento.vip" class="aeroLink" target="_blank">pregunta</a>.</p>
+                            </div>
+                        </div>
+                        <!-- Service Item End -->
+                    </div>
+                    <div class="col-md-4 service--item-h">
+                        <!-- Service Item Start -->
+                        <div class="service--item">
+                            <div class="service--icon">
+                                <img src="{{'assets/img/icono-mudanza.png' | theme }}" alt="">
+                            </div>
+                            <div class="service--content">
+                                <h3><span>Mudanzas</span> asistidas</h3>
+                                <p>Transferimos tu dominio y asignamos un experto para mudar tu web. <a href="https://m.me/alojamiento.vip" class="aeroLink" target="_blank">consulta</a>.</p>
+                            </div>
+                        </div>
+                        <!-- Service Item End -->
+                    </div>
+                    <div class="col-md-4 service--item-h">
+                        <!-- Service Item Start -->
+                        <div class="service--item">
+                            <div class="service--icon">
+                                <img src="{{'assets/img/icono-paypal.png' | theme }}" alt="">
+                            </div>
+                            <div class="service--content">
+                                <h3><span>Pago</span> seguro</h3>
+                                <p>Compra con confianza, tus pagos están protegidos por Paypal, <a href="https://www.paypal.com/bo/webapps/mpp/purchase-protection" class="aeroLink" target="_blank">lee más</a>.</p>
+                            </div>
+                        </div>
+                        <!-- Service Item End -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Features Area End -->";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}
