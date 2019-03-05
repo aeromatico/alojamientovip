@@ -1,38 +1,5 @@
-1551620923a:1:{s:10:"footer.htm";a:6:{s:8:"fileName";s:10:"footer.htm";s:7:"content";s:6222:"==
-<!-- Subscribe Area Start -->
-        <div id="subscribe">
-            <div class="subscribe--sticky">
-                <div class="container">
-                    <!-- Subscribe Content Start -->
-                    <div class="subscribe--content" data-bg-img="{{'assets/img/bg-newsletter.png' | theme }}">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <!-- Section Title Start -->
-                                <div class="section--title block">
-                                    <h2>Ofertas y promociones<span>exclusivas</span></h2>
-                                </div>
-                                <!-- Section Title End -->
-                            </div>
-                            <div class="col-md-8">
-                                <!-- Subscribe Form Start -->
-                                <div class="subscribe--form">
-                                    <form action="http://themelooks.us12.list-manage.com/subscribe/post?u=50e1e21235cbd751ab4c1ebaa&amp;id=ac81d988e4" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate="novalidate">
-                                        <div class="input--text">
-                                            <input type="text" value="" name="EMAIL" placeholder="Ingresa tu correo electrónico">
-                                            <span class="highlight"></span>
-                                        </div>
-                                        <button type="submit" class="btn--primary btn--ripple">Subscribir</button>
-                                    </form>
-                                </div>
-                                <!-- Subscribe Form End -->
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Subscribe Content End -->
-                </div>
-            </div>
-        </div>
-        <!-- Subscribe Area End -->        
+1551746592a:1:{s:10:"footer.htm";a:6:{s:8:"fileName";s:10:"footer.htm";s:7:"content";s:4162:"==
+{% partial 'widgets/mailchimp' %}      
         <!-- Footer Area Start -->
         <footer id="footer">
             <div class="container">
@@ -88,7 +55,7 @@
             <!-- Footer Copyright Start -->
             <div class="footer--copyright text-center">
                 <div class="container">
-                    <p>Copyright &copy; {{ "now" | date("Y") }} <a href="#">Alojamiento VIP</a>  • Hecho con <i class="fas fa-heart"></i> por <a href="https://www.llajwa.club/?ref=Powered-by-Alojamiento.vip" target="_blank">Llajwa Team</a></p>
+                    <p>Hecho con <i class="fas fa-heart"></i> por <a href="https://www.llajwa.club/?ref=Powered-by-Alojamiento.vip" target="_blank">Llajwa Team</a></p>
                 </div>
             </div>
             <!-- Footer Copyright End -->
@@ -98,40 +65,7 @@
         <div id="backToTop">
             <a href="#top" class="btn--primary btn--ripple"><i class="fas fa-angle-up"></i></a>
         </div>
-        <!-- Back To Top Button Start -->";s:5:"mtime";i:1551580528;s:6:"markup";s:6219:"<!-- Subscribe Area Start -->
-        <div id="subscribe">
-            <div class="subscribe--sticky">
-                <div class="container">
-                    <!-- Subscribe Content Start -->
-                    <div class="subscribe--content" data-bg-img="{{'assets/img/bg-newsletter.png' | theme }}">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <!-- Section Title Start -->
-                                <div class="section--title block">
-                                    <h2>Ofertas y promociones<span>exclusivas</span></h2>
-                                </div>
-                                <!-- Section Title End -->
-                            </div>
-                            <div class="col-md-8">
-                                <!-- Subscribe Form Start -->
-                                <div class="subscribe--form">
-                                    <form action="http://themelooks.us12.list-manage.com/subscribe/post?u=50e1e21235cbd751ab4c1ebaa&amp;id=ac81d988e4" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate="novalidate">
-                                        <div class="input--text">
-                                            <input type="text" value="" name="EMAIL" placeholder="Ingresa tu correo electrónico">
-                                            <span class="highlight"></span>
-                                        </div>
-                                        <button type="submit" class="btn--primary btn--ripple">Subscribir</button>
-                                    </form>
-                                </div>
-                                <!-- Subscribe Form End -->
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Subscribe Content End -->
-                </div>
-            </div>
-        </div>
-        <!-- Subscribe Area End -->        
+        <!-- Back To Top Button Start -->";s:5:"mtime";i:1551723214;s:6:"markup";s:4159:"{% partial 'widgets/mailchimp' %}      
         <!-- Footer Area Start -->
         <footer id="footer">
             <div class="container">
@@ -187,7 +121,7 @@
             <!-- Footer Copyright Start -->
             <div class="footer--copyright text-center">
                 <div class="container">
-                    <p>Copyright &copy; {{ "now" | date("Y") }} <a href="#">Alojamiento VIP</a>  • Hecho con <i class="fas fa-heart"></i> por <a href="https://www.llajwa.club/?ref=Powered-by-Alojamiento.vip" target="_blank">Llajwa Team</a></p>
+                    <p>Hecho con <i class="fas fa-heart"></i> por <a href="https://www.llajwa.club/?ref=Powered-by-Alojamiento.vip" target="_blank">Llajwa Team</a></p>
                 </div>
             </div>
             <!-- Footer Copyright End -->

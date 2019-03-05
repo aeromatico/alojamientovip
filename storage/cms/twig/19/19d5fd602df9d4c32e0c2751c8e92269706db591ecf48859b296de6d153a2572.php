@@ -59,7 +59,7 @@ class __TwigTemplate_543427fdf30375ef11ffa698b69f4f2339744c334fe43a045f4b1da139e
                           <td scope=\"row\">Dominio incluídos</span></td>
                           <td class=\"text-center\">2</td>
                           <td class=\"text-center\">1</td>
-                          <td class=\"text-center\">3</td>
+                          <td class=\"text-center\">2</td>
                         </tr>                                              
                         <tr>
                           <td scope=\"row\">Certificados SSL</td>
@@ -127,7 +127,7 @@ class __TwigTemplate_543427fdf30375ef11ffa698b69f4f2339744c334fe43a045f4b1da139e
                           <td scope=\"row\">Dominio incluídos</span></td>
                           <td class=\"text-center\">2</td>
                           <td class=\"text-center\">1</td>
-                          <td class=\"text-center\">3</td>
+                          <td class=\"text-center\">2</td>
                         </tr>                                              
                         <tr>
                           <td scope=\"row\">Certificados SSL</td>

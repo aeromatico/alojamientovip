@@ -163,6 +163,9 @@ class __TwigTemplate_8b9130bf2d9bbe1e9327d422a107dc91af957153e3fe3e881c556555504
         // line 88
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/main.js");
         echo "\"></script>
+    
+    <script id=\"mcjs\">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,\"script\",\"https://chimpstatic.com/mcjs-connected/js/users/d1b3449cedbb183c24cad61ce/76c223288ef00160b93d47742.js\");</script>
+
 </body>
 </html>";
     }
@@ -272,6 +275,9 @@ class __TwigTemplate_8b9130bf2d9bbe1e9327d422a107dc91af957153e3fe3e881c556555504
 
     <!-- ====Main Script==== -->
     <script src=\"{{'assets/js/main.js' | theme }}\"></script>
+    
+    <script id=\"mcjs\">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,\"script\",\"https://chimpstatic.com/mcjs-connected/js/users/d1b3449cedbb183c24cad61ce/76c223288ef00160b93d47742.js\");</script>
+
 </body>
 </html>", "/home/ubuntu/workspace/themes/master/layouts/master.htm", "");
     }

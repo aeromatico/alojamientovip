@@ -171,3 +171,9 @@ thead th {
 .navbar-brand>img{
 	margin-top: 5px;
 }
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
+    border: 1px solid #F0F0F0 !important;
+}

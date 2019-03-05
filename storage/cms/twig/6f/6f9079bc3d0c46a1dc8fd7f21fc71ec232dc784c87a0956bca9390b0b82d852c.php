@@ -53,19 +53,18 @@ class __TwigTemplate_74cbcd4b004285345565eb18df2bf0b2609d77ef744763be98dec6dac80
                             </div>
                             <div class=\"pricing--body\">
                                 <div class=\"pricing--tag\">
-                                    <p>Para pequeños proyectos <strong>US\$ 69</strong></p>
+                                    <h2>Plan <strong>DUO</strong></h2>
+                                    <p>Soporta 2 sitios web<strong>US\$ 69</strong><b>Pago anual</b></p>
                                 </div>
-                                <div class=\"pricing--details\">
-                                    <h2><strong>Plan</strong> Duo</h2>
+                                <div class=\"pricing--details\">                                    
                                     <ul class=\"text-left\">
-                                        <li><i class=\"fas fa-check\"></i> Soporta 2 sitios web.</li>
                                         <li><i class=\"fas fa-check\"></i> 2 dominios incluídos.</li>
                                         <li><i class=\"fas fa-check\"></i> 2 certificados SSL.</li>
                                     </ul>
                                 </div>
                             </div>
                             <div class=\"pricing--footer\">
-                                <a href=\"#\" class=\"btn--primary btn--ripple\">Comprar</a>
+                                <a href=\"https://dashboard.alojamiento.vip/cart.php?a=add&pid=10\" class=\"btn--primary btn--ripple\">Comprar</a>
                             </div>
                         </div>
                         <!-- Pricing Item End -->
@@ -76,26 +75,25 @@ class __TwigTemplate_74cbcd4b004285345565eb18df2bf0b2609d77ef744763be98dec6dac80
                             <div class=\"pricing--header\">
                                 <div class=\"pricing--icon\">
                                     <img src=\"";
-        // line 53
+        // line 52
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/img/paquete-max.png");
         echo "\" alt=\"\" class=\"img-responsive center-block\">
                                 </div>
                             </div>
                             <div class=\"pricing--body\">
                                 <div class=\"pricing--tag\">
-                                    <p>El más vendido <strong>US\$ 75</strong></p>
+                                    <h2>Plan <strong>MAX</strong></h2>
+                                    <p>Soporta 3 sitios web <strong>US\$ 75</strong><b>Pago anual</b></p>
                                 </div>
-                                <div class=\"pricing--details\">
-                                    <h2><strong>Plan</strong> Max</h2>
+                                <div class=\"pricing--details\">                                    
                                     <ul class=\"text-left\">
-                                        <li><i class=\"fas fa-check\"></i> Soporta 3 sitios web.</li>
                                         <li><i class=\"fas fa-check\"></i> 1 dominios incluído.</li>
                                         <li><i class=\"fas fa-check\"></i> 3 certificados SSL.</li>
                                     </ul>
                                 </div>
                             </div>
                             <div class=\"pricing--footer\">
-                                <a href=\"#\" class=\"btn--primary btn--ripple\">Comprar</a>
+                                <a href=\"https://dashboard.alojamiento.vip/cart.php?a=add&pid=11\" class=\"btn--primary btn--ripple\">Comprar</a>
                             </div>
                         </div>
                         <!-- Pricing Item End -->
@@ -107,26 +105,25 @@ class __TwigTemplate_74cbcd4b004285345565eb18df2bf0b2609d77ef744763be98dec6dac80
                             <div class=\"pricing--header\">
                                 <div class=\"pricing--icon\">
                                     <img src=\"";
-        // line 81
+        // line 79
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/img/paquete-master.png");
         echo "\" alt=\"\" class=\"img-responsive center-block\">
                                 </div>
                             </div>
                             <div class=\"pricing--body\">
                                 <div class=\"pricing--tag\">
-                                    <p>Crea más sitios <strong>US\$ 99</strong></p>
+                                    <h2>Plan <strong>MASTER</strong></h2>
+                                    <p>Soporta 5 sitios web <strong>US\$ 99</strong><b>Pago anual</b></p>
                                 </div>
-                                <div class=\"pricing--details\">
-                                    <h2><strong>Plan</strong> Master</h2>
+                                <div class=\"pricing--details\">                                    
                                     <ul class=\"text-left\">
-                                        <li><i class=\"fas fa-check\"></i> Soporta 5 sitios web.</li>
-                                        <li><i class=\"fas fa-check\"></i> 3 dominios incluídos.</li>
+                                        <li><i class=\"fas fa-check\"></i> 2 dominios incluídos.</li>
                                         <li><i class=\"fas fa-check\"></i> 5 certificados SSL.</li>
                                     </ul>
                                 </div>
                             </div>
                             <div class=\"pricing--footer\">
-                                <a href=\"#\" class=\"btn--primary btn--ripple\">Comprar</a>
+                                <a href=\"https://dashboard.alojamiento.vip/cart.php?a=add&pid=12\" class=\"btn--primary btn--ripple\">Comprar</a>
                             </div>
                         </div>
                         <!-- Pricing Item End -->
@@ -149,7 +146,7 @@ class __TwigTemplate_74cbcd4b004285345565eb18df2bf0b2609d77ef744763be98dec6dac80
 
     public function getDebugInfo()
     {
-        return array (  111 => 81,  80 => 53,  50 => 26,  23 => 1,);
+        return array (  109 => 79,  79 => 52,  50 => 26,  23 => 1,);
     }
 
     public function getSourceContext()
@@ -184,19 +181,18 @@ class __TwigTemplate_74cbcd4b004285345565eb18df2bf0b2609d77ef744763be98dec6dac80
                             </div>
                             <div class=\"pricing--body\">
                                 <div class=\"pricing--tag\">
-                                    <p>Para pequeños proyectos <strong>US\$ 69</strong></p>
+                                    <h2>Plan <strong>DUO</strong></h2>
+                                    <p>Soporta 2 sitios web<strong>US\$ 69</strong><b>Pago anual</b></p>
                                 </div>
-                                <div class=\"pricing--details\">
-                                    <h2><strong>Plan</strong> Duo</h2>
+                                <div class=\"pricing--details\">                                    
                                     <ul class=\"text-left\">
-                                        <li><i class=\"fas fa-check\"></i> Soporta 2 sitios web.</li>
                                         <li><i class=\"fas fa-check\"></i> 2 dominios incluídos.</li>
                                         <li><i class=\"fas fa-check\"></i> 2 certificados SSL.</li>
                                     </ul>
                                 </div>
                             </div>
                             <div class=\"pricing--footer\">
-                                <a href=\"#\" class=\"btn--primary btn--ripple\">Comprar</a>
+                                <a href=\"https://dashboard.alojamiento.vip/cart.php?a=add&pid=10\" class=\"btn--primary btn--ripple\">Comprar</a>
                             </div>
                         </div>
                         <!-- Pricing Item End -->
@@ -211,19 +207,18 @@ class __TwigTemplate_74cbcd4b004285345565eb18df2bf0b2609d77ef744763be98dec6dac80
                             </div>
                             <div class=\"pricing--body\">
                                 <div class=\"pricing--tag\">
-                                    <p>El más vendido <strong>US\$ 75</strong></p>
+                                    <h2>Plan <strong>MAX</strong></h2>
+                                    <p>Soporta 3 sitios web <strong>US\$ 75</strong><b>Pago anual</b></p>
                                 </div>
-                                <div class=\"pricing--details\">
-                                    <h2><strong>Plan</strong> Max</h2>
+                                <div class=\"pricing--details\">                                    
                                     <ul class=\"text-left\">
-                                        <li><i class=\"fas fa-check\"></i> Soporta 3 sitios web.</li>
                                         <li><i class=\"fas fa-check\"></i> 1 dominios incluído.</li>
                                         <li><i class=\"fas fa-check\"></i> 3 certificados SSL.</li>
                                     </ul>
                                 </div>
                             </div>
                             <div class=\"pricing--footer\">
-                                <a href=\"#\" class=\"btn--primary btn--ripple\">Comprar</a>
+                                <a href=\"https://dashboard.alojamiento.vip/cart.php?a=add&pid=11\" class=\"btn--primary btn--ripple\">Comprar</a>
                             </div>
                         </div>
                         <!-- Pricing Item End -->
@@ -239,19 +234,18 @@ class __TwigTemplate_74cbcd4b004285345565eb18df2bf0b2609d77ef744763be98dec6dac80
                             </div>
                             <div class=\"pricing--body\">
                                 <div class=\"pricing--tag\">
-                                    <p>Crea más sitios <strong>US\$ 99</strong></p>
+                                    <h2>Plan <strong>MASTER</strong></h2>
+                                    <p>Soporta 5 sitios web <strong>US\$ 99</strong><b>Pago anual</b></p>
                                 </div>
-                                <div class=\"pricing--details\">
-                                    <h2><strong>Plan</strong> Master</h2>
+                                <div class=\"pricing--details\">                                    
                                     <ul class=\"text-left\">
-                                        <li><i class=\"fas fa-check\"></i> Soporta 5 sitios web.</li>
-                                        <li><i class=\"fas fa-check\"></i> 3 dominios incluídos.</li>
+                                        <li><i class=\"fas fa-check\"></i> 2 dominios incluídos.</li>
                                         <li><i class=\"fas fa-check\"></i> 5 certificados SSL.</li>
                                     </ul>
                                 </div>
                             </div>
                             <div class=\"pricing--footer\">
-                                <a href=\"#\" class=\"btn--primary btn--ripple\">Comprar</a>
+                                <a href=\"https://dashboard.alojamiento.vip/cart.php?a=add&pid=12\" class=\"btn--primary btn--ripple\">Comprar</a>
                             </div>
                         </div>
                         <!-- Pricing Item End -->

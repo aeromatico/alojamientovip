@@ -53,10 +53,10 @@ class __TwigTemplate_313e1e7e5360ffd9272144e38edd1abb1220ba1cacaffba6bc07422ad67
                             </div>
                             <div class=\"pricing--body\">
                                 <div class=\"pricing--tag\">
-                                    <p>Para pequeños proyectos <strong>US\$ 39</strong></p>
+                                    <h2>Plan <strong>PLUS</strong></h2>
+                                    <p>Empiece aquí <strong>US\$ 39</strong><b>Pago anual</b></p>
                                 </div>
-                                <div class=\"pricing--details\">
-                                    <h2><strong>Plan</strong> Plus</h2>
+                                <div class=\"pricing--details\">                                    
                                     <ul class=\"text-left\">
                                         <li><i class=\"fas fa-check\"></i> Registro/transferencia de dominio.</li>
                                         <li><i class=\"fas fa-check\"></i> Alojamiento dinámico.</li>
@@ -73,7 +73,7 @@ class __TwigTemplate_313e1e7e5360ffd9272144e38edd1abb1220ba1cacaffba6bc07422ad67
                                 </div>
                             </div>
                             <div class=\"pricing--footer\">
-                                <a href=\"#\" class=\"btn--primary btn--ripple\">Comprar</a>
+                                <a href=\"https://dashboard.alojamiento.vip/cart.php?a=add&pid=7\" class=\"btn--primary btn--ripple\">Comprar</a>
                             </div>
                         </div>
                         <!-- Pricing Item End -->
@@ -91,10 +91,10 @@ class __TwigTemplate_313e1e7e5360ffd9272144e38edd1abb1220ba1cacaffba6bc07422ad67
                             </div>
                             <div class=\"pricing--body\">
                                 <div class=\"pricing--tag\">
-                                    <p>El más vendido <strong>US\$ 45</strong></p>
+                                    <h2>Plan <strong>PRO</strong></h2>
+                                    <p>El más vendido <strong>US\$ 45</strong><b>Pago anual</b></p>
                                 </div>
-                                <div class=\"pricing--details\">
-                                    <h2><strong>Plan</strong> Pro</h2>
+                                <div class=\"pricing--details\">                                    
                                     <ul class=\"text-left\">
                                         <li><i class=\"fas fa-check\"></i> Registro/transferencia de dominio.</li>
                                         <li><i class=\"fas fa-check\"></i> Alojamiento dinámico.</li>
@@ -112,7 +112,7 @@ class __TwigTemplate_313e1e7e5360ffd9272144e38edd1abb1220ba1cacaffba6bc07422ad67
                                 </div>
                             </div>
                             <div class=\"pricing--footer\">
-                                <a href=\"#\" class=\"btn--primary btn--ripple\">Comprar</a>
+                                <a href=\"https://dashboard.alojamiento.vip/cart.php?a=add&pid=8\" class=\"btn--primary btn--ripple\">Comprar</a>
                             </div>
                         </div>
                         <!-- Pricing Item End -->
@@ -131,10 +131,10 @@ class __TwigTemplate_313e1e7e5360ffd9272144e38edd1abb1220ba1cacaffba6bc07422ad67
                             </div>
                             <div class=\"pricing--body\">
                                 <div class=\"pricing--tag\">
-                                    <p>Crea más sitios <strong>US\$ 55</strong></p>
+                                    <h2>Plan <strong>VIP</strong></h2>
+                                    <p>Máxima potencia <strong>US\$ 55</strong><b>Pago anual</b></p>
                                 </div>
-                                <div class=\"pricing--details\">
-                                    <h2><strong>Plan</strong> Vip</h2>
+                                <div class=\"pricing--details\">                                    
                                     <ul class=\"text-left\">
                                         <li><i class=\"fas fa-check\"></i> Registro/transferencia de dominio.</li>
                                         <li><i class=\"fas fa-check\"></i> Alojamiento dinámico.</li>
@@ -153,7 +153,7 @@ class __TwigTemplate_313e1e7e5360ffd9272144e38edd1abb1220ba1cacaffba6bc07422ad67
                                 </div>
                             </div>
                             <div class=\"pricing--footer\">
-                                <a href=\"#\" class=\"btn--primary btn--ripple\">Comprar</a>
+                                <a href=\"https://dashboard.alojamiento.vip/cart.php?a=add&pid=9\" class=\"btn--primary btn--ripple\">Comprar</a>
                             </div>
                         </div>
                         <!-- Pricing Item End -->
@@ -211,10 +211,10 @@ class __TwigTemplate_313e1e7e5360ffd9272144e38edd1abb1220ba1cacaffba6bc07422ad67
                             </div>
                             <div class=\"pricing--body\">
                                 <div class=\"pricing--tag\">
-                                    <p>Para pequeños proyectos <strong>US\$ 39</strong></p>
+                                    <h2>Plan <strong>PLUS</strong></h2>
+                                    <p>Empiece aquí <strong>US\$ 39</strong><b>Pago anual</b></p>
                                 </div>
-                                <div class=\"pricing--details\">
-                                    <h2><strong>Plan</strong> Plus</h2>
+                                <div class=\"pricing--details\">                                    
                                     <ul class=\"text-left\">
                                         <li><i class=\"fas fa-check\"></i> Registro/transferencia de dominio.</li>
                                         <li><i class=\"fas fa-check\"></i> Alojamiento dinámico.</li>
@@ -231,7 +231,7 @@ class __TwigTemplate_313e1e7e5360ffd9272144e38edd1abb1220ba1cacaffba6bc07422ad67
                                 </div>
                             </div>
                             <div class=\"pricing--footer\">
-                                <a href=\"#\" class=\"btn--primary btn--ripple\">Comprar</a>
+                                <a href=\"https://dashboard.alojamiento.vip/cart.php?a=add&pid=7\" class=\"btn--primary btn--ripple\">Comprar</a>
                             </div>
                         </div>
                         <!-- Pricing Item End -->
@@ -246,10 +246,10 @@ class __TwigTemplate_313e1e7e5360ffd9272144e38edd1abb1220ba1cacaffba6bc07422ad67
                             </div>
                             <div class=\"pricing--body\">
                                 <div class=\"pricing--tag\">
-                                    <p>El más vendido <strong>US\$ 45</strong></p>
+                                    <h2>Plan <strong>PRO</strong></h2>
+                                    <p>El más vendido <strong>US\$ 45</strong><b>Pago anual</b></p>
                                 </div>
-                                <div class=\"pricing--details\">
-                                    <h2><strong>Plan</strong> Pro</h2>
+                                <div class=\"pricing--details\">                                    
                                     <ul class=\"text-left\">
                                         <li><i class=\"fas fa-check\"></i> Registro/transferencia de dominio.</li>
                                         <li><i class=\"fas fa-check\"></i> Alojamiento dinámico.</li>
@@ -267,7 +267,7 @@ class __TwigTemplate_313e1e7e5360ffd9272144e38edd1abb1220ba1cacaffba6bc07422ad67
                                 </div>
                             </div>
                             <div class=\"pricing--footer\">
-                                <a href=\"#\" class=\"btn--primary btn--ripple\">Comprar</a>
+                                <a href=\"https://dashboard.alojamiento.vip/cart.php?a=add&pid=8\" class=\"btn--primary btn--ripple\">Comprar</a>
                             </div>
                         </div>
                         <!-- Pricing Item End -->
@@ -283,10 +283,10 @@ class __TwigTemplate_313e1e7e5360ffd9272144e38edd1abb1220ba1cacaffba6bc07422ad67
                             </div>
                             <div class=\"pricing--body\">
                                 <div class=\"pricing--tag\">
-                                    <p>Crea más sitios <strong>US\$ 55</strong></p>
+                                    <h2>Plan <strong>VIP</strong></h2>
+                                    <p>Máxima potencia <strong>US\$ 55</strong><b>Pago anual</b></p>
                                 </div>
-                                <div class=\"pricing--details\">
-                                    <h2><strong>Plan</strong> Vip</h2>
+                                <div class=\"pricing--details\">                                    
                                     <ul class=\"text-left\">
                                         <li><i class=\"fas fa-check\"></i> Registro/transferencia de dominio.</li>
                                         <li><i class=\"fas fa-check\"></i> Alojamiento dinámico.</li>
@@ -305,7 +305,7 @@ class __TwigTemplate_313e1e7e5360ffd9272144e38edd1abb1220ba1cacaffba6bc07422ad67
                                 </div>
                             </div>
                             <div class=\"pricing--footer\">
-                                <a href=\"#\" class=\"btn--primary btn--ripple\">Comprar</a>
+                                <a href=\"https://dashboard.alojamiento.vip/cart.php?a=add&pid=9\" class=\"btn--primary btn--ripple\">Comprar</a>
                             </div>
                         </div>
                         <!-- Pricing Item End -->

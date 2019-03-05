@@ -20,49 +20,16 @@ class __TwigTemplate_fd49e5beed823d5b7a066d48bfecd3519338a8882cf0335c884dde4419c
     protected function doDisplay(array $context, array $blocks = array())
     {
         // line 1
-        echo "<!-- Subscribe Area Start -->
-        <div id=\"subscribe\">
-            <div class=\"subscribe--sticky\">
-                <div class=\"container\">
-                    <!-- Subscribe Content Start -->
-                    <div class=\"subscribe--content\" data-bg-img=\"";
-        // line 6
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/img/bg-newsletter.png");
-        echo "\">
-                        <div class=\"row\">
-                            <div class=\"col-md-4\">
-                                <!-- Section Title Start -->
-                                <div class=\"section--title block\">
-                                    <h2>Ofertas y promociones<span>exclusivas</span></h2>
-                                </div>
-                                <!-- Section Title End -->
-                            </div>
-                            <div class=\"col-md-8\">
-                                <!-- Subscribe Form Start -->
-                                <div class=\"subscribe--form\">
-                                    <form action=\"http://themelooks.us12.list-manage.com/subscribe/post?u=50e1e21235cbd751ab4c1ebaa&amp;id=ac81d988e4\" method=\"post\" name=\"mc-embedded-subscribe-form\" target=\"_blank\" novalidate=\"novalidate\">
-                                        <div class=\"input--text\">
-                                            <input type=\"text\" value=\"\" name=\"EMAIL\" placeholder=\"Ingresa tu correo electrónico\">
-                                            <span class=\"highlight\"></span>
-                                        </div>
-                                        <button type=\"submit\" class=\"btn--primary btn--ripple\">Subscribir</button>
-                                    </form>
-                                </div>
-                                <!-- Subscribe Form End -->
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Subscribe Content End -->
-                </div>
-            </div>
-        </div>
-        <!-- Subscribe Area End -->        
+        $context['__cms_partial_params'] = [];
+        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("widgets/mailchimp"        , $context['__cms_partial_params']        , true        );
+        unset($context['__cms_partial_params']);
+        echo "      
         <!-- Footer Area Start -->
         <footer id=\"footer\">
             <div class=\"container\">
                 <!-- Footer Background Image Start -->
                 <div class=\"footer--bg\" data-bg-img=\"";
-        // line 39
+        // line 6
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/img/icono-llajwa-footer.png");
         echo "\"></div>
                 <!-- Footer Background Image End -->
@@ -86,11 +53,11 @@ class __TwigTemplate_fd49e5beed823d5b7a066d48bfecd3519338a8882cf0335c884dde4419c
                         <!-- Footer Links Widget Start -->
                         <div class=\"footer--links\">
                             ";
-        // line 60
+        // line 27
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("menus/footer"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 61
+        // line 28
         echo "                        </div>
                         <!-- Footer Links Widget End -->
                     </div>
@@ -120,10 +87,7 @@ class __TwigTemplate_fd49e5beed823d5b7a066d48bfecd3519338a8882cf0335c884dde4419c
             <!-- Footer Copyright Start -->
             <div class=\"footer--copyright text-center\">
                 <div class=\"container\">
-                    <p>Copyright &copy; ";
-        // line 90
-        echo twig_escape_filter($this->env, twig_date_format_filter($this->env, "now", "Y"), "html", null, true);
-        echo " <a href=\"#\">Alojamiento VIP</a>  • Hecho con <i class=\"fas fa-heart\"></i> por <a href=\"https://www.llajwa.club/?ref=Powered-by-Alojamiento.vip\" target=\"_blank\">Llajwa Team</a></p>
+                    <p>Hecho con <i class=\"fas fa-heart\"></i> por <a href=\"https://www.llajwa.club/?ref=Powered-by-Alojamiento.vip\" target=\"_blank\">Llajwa Team</a></p>
                 </div>
             </div>
             <!-- Footer Copyright End -->
@@ -148,45 +112,12 @@ class __TwigTemplate_fd49e5beed823d5b7a066d48bfecd3519338a8882cf0335c884dde4419c
 
     public function getDebugInfo()
     {
-        return array (  125 => 90,  94 => 61,  90 => 60,  66 => 39,  30 => 6,  23 => 1,);
+        return array (  61 => 28,  57 => 27,  33 => 6,  23 => 1,);
     }
 
     public function getSourceContext()
     {
-        return new Twig_Source("<!-- Subscribe Area Start -->
-        <div id=\"subscribe\">
-            <div class=\"subscribe--sticky\">
-                <div class=\"container\">
-                    <!-- Subscribe Content Start -->
-                    <div class=\"subscribe--content\" data-bg-img=\"{{'assets/img/bg-newsletter.png' | theme }}\">
-                        <div class=\"row\">
-                            <div class=\"col-md-4\">
-                                <!-- Section Title Start -->
-                                <div class=\"section--title block\">
-                                    <h2>Ofertas y promociones<span>exclusivas</span></h2>
-                                </div>
-                                <!-- Section Title End -->
-                            </div>
-                            <div class=\"col-md-8\">
-                                <!-- Subscribe Form Start -->
-                                <div class=\"subscribe--form\">
-                                    <form action=\"http://themelooks.us12.list-manage.com/subscribe/post?u=50e1e21235cbd751ab4c1ebaa&amp;id=ac81d988e4\" method=\"post\" name=\"mc-embedded-subscribe-form\" target=\"_blank\" novalidate=\"novalidate\">
-                                        <div class=\"input--text\">
-                                            <input type=\"text\" value=\"\" name=\"EMAIL\" placeholder=\"Ingresa tu correo electrónico\">
-                                            <span class=\"highlight\"></span>
-                                        </div>
-                                        <button type=\"submit\" class=\"btn--primary btn--ripple\">Subscribir</button>
-                                    </form>
-                                </div>
-                                <!-- Subscribe Form End -->
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Subscribe Content End -->
-                </div>
-            </div>
-        </div>
-        <!-- Subscribe Area End -->        
+        return new Twig_Source("{% partial 'widgets/mailchimp' %}      
         <!-- Footer Area Start -->
         <footer id=\"footer\">
             <div class=\"container\">
@@ -242,7 +173,7 @@ class __TwigTemplate_fd49e5beed823d5b7a066d48bfecd3519338a8882cf0335c884dde4419c
             <!-- Footer Copyright Start -->
             <div class=\"footer--copyright text-center\">
                 <div class=\"container\">
-                    <p>Copyright &copy; {{ \"now\" | date(\"Y\") }} <a href=\"#\">Alojamiento VIP</a>  • Hecho con <i class=\"fas fa-heart\"></i> por <a href=\"https://www.llajwa.club/?ref=Powered-by-Alojamiento.vip\" target=\"_blank\">Llajwa Team</a></p>
+                    <p>Hecho con <i class=\"fas fa-heart\"></i> por <a href=\"https://www.llajwa.club/?ref=Powered-by-Alojamiento.vip\" target=\"_blank\">Llajwa Team</a></p>
                 </div>
             </div>
             <!-- Footer Copyright End -->

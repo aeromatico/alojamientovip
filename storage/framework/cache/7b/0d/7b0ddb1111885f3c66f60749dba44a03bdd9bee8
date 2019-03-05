@@ -1,0 +1,68 @@
+1551746592a:1:{s:21:"widgets/mailchimp.htm";a:6:{s:8:"fileName";s:21:"widgets/mailchimp.htm";s:7:"content";s:2003:"==
+<!-- Subscribe Area Start -->
+        <div id="subscribe">
+            <div class="subscribe--sticky">
+                <div class="container">
+                    <!-- Subscribe Content Start -->
+                    <div class="subscribe--content" data-bg-img="{{'assets/img/bg-newsletter.png' | theme }}">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <!-- Section Title Start -->
+                                <div class="section--title block">
+                                    <h2>Promociones<span>exclusivas</span></h2>
+                                </div>
+                                <!-- Section Title End -->
+                            </div>
+                            <div class="col-md-8">
+                                <!-- Subscribe Form Start -->
+                                <div class="subscribe--form">
+                                    <form action="https://5megas.us14.list-manage.com/subscribe/post?u=d1b3449cedbb183c24cad61ce&amp;id=1a76236498" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate="novalidate">
+                                        <div class="input--text">
+                                            <input type="text" value="" name="EMAIL" placeholder="Ingresa tu correo electrónico">
+                                            <span class="highlight"></span>
+                                        </div>
+                                        <button type="submit" class="btn--primary btn--ripple">Subscribir</button>
+                                    </form>
+                                </div>
+                                <!-- Subscribe Form End -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Subscribe Content End -->
+                </div>
+            </div>
+        </div>
+        <!-- Subscribe Area End -->";s:5:"mtime";i:1551722937;s:6:"markup";s:2000:"<!-- Subscribe Area Start -->
+        <div id="subscribe">
+            <div class="subscribe--sticky">
+                <div class="container">
+                    <!-- Subscribe Content Start -->
+                    <div class="subscribe--content" data-bg-img="{{'assets/img/bg-newsletter.png' | theme }}">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <!-- Section Title Start -->
+                                <div class="section--title block">
+                                    <h2>Promociones<span>exclusivas</span></h2>
+                                </div>
+                                <!-- Section Title End -->
+                            </div>
+                            <div class="col-md-8">
+                                <!-- Subscribe Form Start -->
+                                <div class="subscribe--form">
+                                    <form action="https://5megas.us14.list-manage.com/subscribe/post?u=d1b3449cedbb183c24cad61ce&amp;id=1a76236498" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate="novalidate">
+                                        <div class="input--text">
+                                            <input type="text" value="" name="EMAIL" placeholder="Ingresa tu correo electrónico">
+                                            <span class="highlight"></span>
+                                        </div>
+                                        <button type="submit" class="btn--primary btn--ripple">Subscribir</button>
+                                    </form>
+                                </div>
+                                <!-- Subscribe Form End -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Subscribe Content End -->
+                </div>
+            </div>
+        </div>
+        <!-- Subscribe Area End -->";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}

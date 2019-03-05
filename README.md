@@ -22,3 +22,22 @@ October CMS has a few system requirements:
 
 As of PHP 5.5, some OS distributions may require you to manually install the PHP JSON extension.
 When using Ubuntu, this can be done via ``apt-get install php5-json``.
+
+git init
+git add . 
+git commit -m "first commit"
+git remote add origin https://github.com/aeromatico/alojamientovip.git
+git push -u origin master 
+*Alternative* git push -u origin master --force
+
+
+---
+
+Import with SSH 
+
+git clone https://github.com/aeromatico/alojamientovip.git /home/alojami2/git/www
+
+After, updates
+
+cd /home/alojami2/git/www
+git pull https://github.com/aeromatico/alojamientovip.git master

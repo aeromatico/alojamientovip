@@ -1,4 +1,4 @@
-1551584508a:1:{s:23:"packs/compare-multi.htm";a:6:{s:8:"fileName";s:23:"packs/compare-multi.htm";s:7:"content";s:2691:"==
+1551723340a:1:{s:23:"packs/compare-multi.htm";a:6:{s:8:"fileName";s:23:"packs/compare-multi.htm";s:7:"content";s:2691:"==
 <!-- Price Details Area Start -->
         <div id="priceDetails">
             <div class="container">
@@ -38,7 +38,7 @@
                           <td scope="row">Dominio incluídos</span></td>
                           <td class="text-center">2</td>
                           <td class="text-center">1</td>
-                          <td class="text-center">3</td>
+                          <td class="text-center">2</td>
                         </tr>                                              
                         <tr>
                           <td scope="row">Certificados SSL</td>
@@ -52,7 +52,7 @@
                 </div>
             </div>
         </div>
-        <!-- Price Details Area End -->";s:5:"mtime";i:1551558543;s:6:"markup";s:2688:"<!-- Price Details Area Start -->
+        <!-- Price Details Area End -->";s:5:"mtime";i:1551722491;s:6:"markup";s:2688:"<!-- Price Details Area Start -->
         <div id="priceDetails">
             <div class="container">
                 <!-- Section Title Start -->
@@ -91,7 +91,7 @@
                           <td scope="row">Dominio incluídos</span></td>
                           <td class="text-center">2</td>
                           <td class="text-center">1</td>
-                          <td class="text-center">3</td>
+                          <td class="text-center">2</td>
                         </tr>                                              
                         <tr>
                           <td scope="row">Certificados SSL</td>
