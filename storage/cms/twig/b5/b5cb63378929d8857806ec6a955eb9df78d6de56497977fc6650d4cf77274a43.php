@@ -44,7 +44,7 @@ class __TwigTemplate_156471106c2f2ff643544b35c96fc76e950c2333cf1f55a9b1b7e7be71c
     
     <meta name=\"author\" content=\"^A^ero\">
     
-    <meta name=\"theme-color\" content=\"#FF0000\" />
+    <meta name=\"theme-color\" content=\"#0F131A\" />
 
     <!-- ====Favicons==== -->
     <link rel=\"shortcut icon\" href=\"";
@@ -260,7 +260,7 @@ class __TwigTemplate_156471106c2f2ff643544b35c96fc76e950c2333cf1f55a9b1b7e7be71c
     
     <meta name=\"author\" content=\"^A^ero\">
     
-    <meta name=\"theme-color\" content=\"#FF0000\" />
+    <meta name=\"theme-color\" content=\"#0F131A\" />
 
     <!-- ====Favicons==== -->
     <link rel=\"shortcut icon\" href=\"{{'assets/img/favicon.ico' | theme }}\" type=\"image/x-icon\">
