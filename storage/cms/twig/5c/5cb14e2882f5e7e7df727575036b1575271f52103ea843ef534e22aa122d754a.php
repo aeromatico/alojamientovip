@@ -47,7 +47,7 @@ class __TwigTemplate_793cc764c6aef7d99e540d44de74222d110580d52652e0c5c5bde04a942
                             </div>
                             <div class=\"service--content\">
                                 <h3><span>Asesoría</span> cordial</h3>
-                                <p>No seas tímido, nuestro equipo está entrenado para brindarte la mejor asistencia, <a href=\"https://m.me/alojamiento.vip\" class=\"aeroLink\" target=\"_blank\">pregunta</a>.</p>
+                                <p>No seas tímido, nuestro equipo está entrenado para brindarte la mejor asistencia, <a href=\"https://m.me/AlojamientoVipSocial\" class=\"aeroLink\" target=\"_blank\">pregunta</a>.</p>
                             </div>
                         </div>
                         <!-- Service Item End -->
@@ -63,7 +63,7 @@ class __TwigTemplate_793cc764c6aef7d99e540d44de74222d110580d52652e0c5c5bde04a942
                             </div>
                             <div class=\"service--content\">
                                 <h3><span>Mudanzas</span> asistidas</h3>
-                                <p>Transferimos tu dominio y asignamos un experto para mudar tu web. <a href=\"https://m.me/alojamiento.vip\" class=\"aeroLink\" target=\"_blank\">consulta</a>.</p>
+                                <p>Transferimos tu dominio y asignamos un experto para mudar tu web. <a href=\"https://m.me/AlojamientoVipSocial\" class=\"aeroLink\" target=\"_blank\">consulta</a>.</p>
                             </div>
                         </div>
                         <!-- Service Item End -->
@@ -131,7 +131,7 @@ class __TwigTemplate_793cc764c6aef7d99e540d44de74222d110580d52652e0c5c5bde04a942
                             </div>
                             <div class=\"service--content\">
                                 <h3><span>Asesoría</span> cordial</h3>
-                                <p>No seas tímido, nuestro equipo está entrenado para brindarte la mejor asistencia, <a href=\"https://m.me/alojamiento.vip\" class=\"aeroLink\" target=\"_blank\">pregunta</a>.</p>
+                                <p>No seas tímido, nuestro equipo está entrenado para brindarte la mejor asistencia, <a href=\"https://m.me/AlojamientoVipSocial\" class=\"aeroLink\" target=\"_blank\">pregunta</a>.</p>
                             </div>
                         </div>
                         <!-- Service Item End -->
@@ -144,7 +144,7 @@ class __TwigTemplate_793cc764c6aef7d99e540d44de74222d110580d52652e0c5c5bde04a942
                             </div>
                             <div class=\"service--content\">
                                 <h3><span>Mudanzas</span> asistidas</h3>
-                                <p>Transferimos tu dominio y asignamos un experto para mudar tu web. <a href=\"https://m.me/alojamiento.vip\" class=\"aeroLink\" target=\"_blank\">consulta</a>.</p>
+                                <p>Transferimos tu dominio y asignamos un experto para mudar tu web. <a href=\"https://m.me/AlojamientoVipSocial\" class=\"aeroLink\" target=\"_blank\">consulta</a>.</p>
                             </div>
                         </div>
                         <!-- Service Item End -->

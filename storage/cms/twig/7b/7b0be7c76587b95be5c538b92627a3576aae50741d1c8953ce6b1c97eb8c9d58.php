@@ -20,7 +20,7 @@ class __TwigTemplate_0c9fc8d256458d9fa42ca2d3e71d7f4cfab75bb8e3374310c0ecbd4103f
     protected function doDisplay(array $context, array $blocks = [])
     {
         // line 1
-        echo "<h2>Servicios</h2>
+        echo "<h2>Navega</h2>
                             <ul>
                                 <li><a href=\"";
         // line 3
@@ -49,7 +49,7 @@ class __TwigTemplate_0c9fc8d256458d9fa42ca2d3e71d7f4cfab75bb8e3374310c0ecbd4103f
 
     public function getSourceContext()
     {
-        return new Twig_Source("<h2>Servicios</h2>
+        return new Twig_Source("<h2>Navega</h2>
                             <ul>
                                 <li><a href=\"{{app}}/?ref=menu-inferior\"><i class=\"fa fm fa-angle-double-right\"></i>Portada</a></li>
                                 <li><a href=\"https://dashboard.alojamiento.vip/clientarea.php\"><i class=\"fa fm fa-angle-double-right\"></i>Área de Clientes</a></li>

@@ -12,6 +12,8 @@
     <meta name="title" content="{{ this.page.meta_title }}">
     
     <meta name="author" content="^A^ero">
+    
+    <meta name="theme-color" content="#0F131A" />
 
     <!-- ====Favicons==== -->
     <link rel="shortcut icon" href="{{'assets/img/favicon.ico' | theme }}" type="image/x-icon">
@@ -52,6 +54,9 @@
     
 </head>
 <body>
+    
+    {% partial 'code/afterbodytag' %}
+    
     <!-- Preloader Start -->
     <div id="preloader">
         <div class="preloader loading">

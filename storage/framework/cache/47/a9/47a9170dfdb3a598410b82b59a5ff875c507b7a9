@@ -1,4 +1,4 @@
-1552269837a:1:{s:10:"master.htm";a:5:{s:8:"fileName";s:10:"master.htm";s:7:"content";s:3899:"<!DOCTYPE html>
+1552308205a:1:{s:10:"master.htm";a:5:{s:8:"fileName";s:10:"master.htm";s:7:"content";s:4002:"<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -12,6 +12,8 @@
     <meta name="title" content="{{ this.page.meta_title }}">
     
     <meta name="author" content="^A^ero">
+    
+    <meta name="theme-color" content="#FF0000" />
 
     <!-- ====Favicons==== -->
     <link rel="shortcut icon" href="{{'assets/img/favicon.ico' | theme }}" type="image/x-icon">
@@ -52,6 +54,9 @@
     
 </head>
 <body>
+    
+    {% partial 'code/afterbodytag' %}
+    
     <!-- Preloader Start -->
     <div id="preloader">
         <div class="preloader loading">
@@ -102,7 +107,7 @@
 
 </body>
 </html>
-";s:5:"mtime";i:1551746882;s:6:"markup";s:3898:"<!DOCTYPE html>
+";s:5:"mtime";i:1552307598;s:6:"markup";s:4001:"<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -116,6 +121,8 @@
     <meta name="title" content="{{ this.page.meta_title }}">
     
     <meta name="author" content="^A^ero">
+    
+    <meta name="theme-color" content="#FF0000" />
 
     <!-- ====Favicons==== -->
     <link rel="shortcut icon" href="{{'assets/img/favicon.ico' | theme }}" type="image/x-icon">
@@ -156,6 +163,9 @@
     
 </head>
 <body>
+    
+    {% partial 'code/afterbodytag' %}
+    
     <!-- Preloader Start -->
     <div id="preloader">
         <div class="preloader loading">

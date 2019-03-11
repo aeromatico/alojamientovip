@@ -43,14 +43,16 @@ class __TwigTemplate_156471106c2f2ff643544b35c96fc76e950c2333cf1f55a9b1b7e7be71c
         echo "\">
     
     <meta name=\"author\" content=\"^A^ero\">
+    
+    <meta name=\"theme-color\" content=\"#FF0000\" />
 
     <!-- ====Favicons==== -->
     <link rel=\"shortcut icon\" href=\"";
-        // line 17
+        // line 19
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/img/favicon.ico");
         echo "\" type=\"image/x-icon\">
     <link rel=\"icon\" href=\"";
-        // line 18
+        // line 20
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/img/favicon.ico");
         echo "\" type=\"image/x-icon\">
     
@@ -63,35 +65,35 @@ class __TwigTemplate_156471106c2f2ff643544b35c96fc76e950c2333cf1f55a9b1b7e7be71c
 
     <!-- ====Bootstrap Stylesheet==== -->
     <link href=\"";
-        // line 28
+        // line 30
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/css/bootstrap.min.css");
         echo "\" rel=\"stylesheet\">
     
     <!-- ====bxSlider Plugin==== -->
     <link href=\"";
-        // line 31
+        // line 33
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/css/jquery.bxslider.min.css");
         echo "\" rel=\"stylesheet\">
     
     <!-- ====Main Stylesheet==== -->
     <link href=\"";
-        // line 34
+        // line 36
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/css/style.css?v=1");
         echo "\" rel=\"stylesheet\">
     
     <!-- ====Responsive Stylesheet==== -->
     <link href=\"";
-        // line 37
+        // line 39
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/css/responsive-style.css?v=1");
         echo "\" rel=\"stylesheet\">
     <link href=\"";
-        // line 38
+        // line 40
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/css/aero.css?v=9");
         echo "\" rel=\"stylesheet\">
     
     <!-- ====Theme Color Stylesheet==== -->
     <link href=\"";
-        // line 41
+        // line 43
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/css/colors/theme-color-1.css");
         echo "\" rel=\"stylesheet\" id=\"changeColorScheme\">
 
@@ -102,20 +104,28 @@ class __TwigTemplate_156471106c2f2ff643544b35c96fc76e950c2333cf1f55a9b1b7e7be71c
     <![endif]-->
     
     ";
-        // line 49
+        // line 51
         echo $this->env->getExtension('Cms\Twig\Extension')->assetsFunction('css');
         echo $this->env->getExtension('Cms\Twig\Extension')->displayBlock('styles');
-        // line 50
+        // line 52
         echo "    
     ";
-        // line 51
+        // line 53
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("code/analytics"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 52
+        // line 54
         echo "    
 </head>
 <body>
+    
+    ";
+        // line 58
+        $context['__cms_partial_params'] = [];
+        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("code/afterbodytag"        , $context['__cms_partial_params']        , true        );
+        unset($context['__cms_partial_params']);
+        // line 59
+        echo "    
     <!-- Preloader Start -->
     <div id=\"preloader\">
         <div class=\"preloader loading\">
@@ -133,67 +143,67 @@ class __TwigTemplate_156471106c2f2ff643544b35c96fc76e950c2333cf1f55a9b1b7e7be71c
     <div class=\"wrapper\">
 
         ";
-        // line 71
+        // line 76
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("header"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 72
+        // line 77
         echo "        
         ";
-        // line 73
+        // line 78
         echo $this->env->getExtension('Cms\Twig\Extension')->pageFunction();
-        // line 74
+        // line 79
         echo "        
         ";
-        // line 75
+        // line 80
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("footer"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 76
+        // line 81
         echo "        
     </div>
     <!-- Wrapper End -->
 
     <!-- ====jQuery Library==== -->
     <script src=\"";
-        // line 81
+        // line 86
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/jquery-3.1.0.min.js");
         echo "\"></script>
 
     <!-- ====Bootstrap Core Script==== -->
     <script src=\"";
-        // line 84
+        // line 89
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/bootstrap.min.js");
         echo "\"></script>
 
     <!-- ====bxSlider Plugin==== -->
     <script src=\"";
-        // line 87
+        // line 92
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/jquery.bxslider.min.js");
         echo "\"></script>
 
     <!-- ====jQuery Validate Plugin==== -->
     <script src=\"";
-        // line 90
+        // line 95
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/jquery.validate.min.js");
         echo "\"></script>
 
     <!-- ====RetinaJS Plugin==== -->
     <script src=\"";
-        // line 93
+        // line 98
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/retina.min.js");
         echo "\"></script>
 
     <!-- ====Main Script==== -->
     <script src=\"";
-        // line 96
+        // line 101
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/main.js");
         echo "\"></script>
     
     <script id=\"mcjs\">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,\"script\",\"https://chimpstatic.com/mcjs-connected/js/users/d1b3449cedbb183c24cad61ce/76c223288ef00160b93d47742.js\");</script>
     
     ";
-        // line 100
+        // line 105
         $_minify = System\Classes\CombineAssets::instance()->useMinify;
         if ($_minify) {
             echo '<script src="'. Request::getBasePath()
@@ -208,7 +218,7 @@ class __TwigTemplate_156471106c2f2ff643544b35c96fc76e950c2333cf1f55a9b1b7e7be71c
         echo '<link rel="stylesheet" property="stylesheet" href="'. Request::getBasePath()
                     .'/modules/system/assets/css/framework.extras'.($_minify ? '-min' : '').'.css">'.PHP_EOL;
         unset($_minify);
-        // line 101
+        // line 106
         echo "    ";
         echo $this->env->getExtension('Cms\Twig\Extension')->assetsFunction('js');
         echo $this->env->getExtension('Cms\Twig\Extension')->displayBlock('scripts');
@@ -230,7 +240,7 @@ class __TwigTemplate_156471106c2f2ff643544b35c96fc76e950c2333cf1f55a9b1b7e7be71c
 
     public function getDebugInfo()
     {
-        return array (  212 => 101,  197 => 100,  190 => 96,  184 => 93,  178 => 90,  172 => 87,  166 => 84,  160 => 81,  153 => 76,  149 => 75,  146 => 74,  144 => 73,  141 => 72,  137 => 71,  116 => 52,  112 => 51,  109 => 50,  106 => 49,  95 => 41,  89 => 38,  85 => 37,  79 => 34,  73 => 31,  67 => 28,  54 => 18,  50 => 17,  42 => 12,  37 => 10,  32 => 8,  23 => 1,);
+        return array (  222 => 106,  207 => 105,  200 => 101,  194 => 98,  188 => 95,  182 => 92,  176 => 89,  170 => 86,  163 => 81,  159 => 80,  156 => 79,  154 => 78,  151 => 77,  147 => 76,  128 => 59,  124 => 58,  118 => 54,  114 => 53,  111 => 52,  108 => 51,  97 => 43,  91 => 40,  87 => 39,  81 => 36,  75 => 33,  69 => 30,  56 => 20,  52 => 19,  42 => 12,  37 => 10,  32 => 8,  23 => 1,);
     }
 
     public function getSourceContext()
@@ -249,6 +259,8 @@ class __TwigTemplate_156471106c2f2ff643544b35c96fc76e950c2333cf1f55a9b1b7e7be71c
     <meta name=\"title\" content=\"{{ this.page.meta_title }}\">
     
     <meta name=\"author\" content=\"^A^ero\">
+    
+    <meta name=\"theme-color\" content=\"#FF0000\" />
 
     <!-- ====Favicons==== -->
     <link rel=\"shortcut icon\" href=\"{{'assets/img/favicon.ico' | theme }}\" type=\"image/x-icon\">
@@ -289,6 +301,9 @@ class __TwigTemplate_156471106c2f2ff643544b35c96fc76e950c2333cf1f55a9b1b7e7be71c
     
 </head>
 <body>
+    
+    {% partial 'code/afterbodytag' %}
+    
     <!-- Preloader Start -->
     <div id=\"preloader\">
         <div class=\"preloader loading\">

@@ -1,4 +1,4 @@
-1552269837a:1:{s:10:"footer.htm";a:6:{s:8:"fileName";s:10:"footer.htm";s:7:"content";s:4356:"==
+1552307894a:1:{s:10:"footer.htm";a:6:{s:8:"fileName";s:10:"footer.htm";s:7:"content";s:4356:"==
 {% partial 'widgets/mailchimp' %}      
         <!-- Footer Area Start -->
         <footer id="footer">
