@@ -129,12 +129,10 @@ class __TwigTemplate_156471106c2f2ff643544b35c96fc76e950c2333cf1f55a9b1b7e7be71c
     <!-- Preloader Start -->
     <div id=\"preloader\">
         <div class=\"preloader loading\">
-            <span class=\"slice\"></span>
-            <span class=\"slice\"></span>
-            <span class=\"slice\"></span>
-            <span class=\"slice\"></span>
-            <span class=\"slice\"></span>
-            <span class=\"slice\"></span>
+            <img src=\"";
+        // line 63
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/img/icono-llajwa.png");
+        echo "\" style=\"height: 100px; width: auto\">
         </div>
     </div>
     <!-- Preloader End -->
@@ -143,67 +141,67 @@ class __TwigTemplate_156471106c2f2ff643544b35c96fc76e950c2333cf1f55a9b1b7e7be71c
     <div class=\"wrapper\">
 
         ";
-        // line 76
+        // line 71
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("header"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 77
+        // line 72
         echo "        
         ";
-        // line 78
+        // line 73
         echo $this->env->getExtension('Cms\Twig\Extension')->pageFunction();
-        // line 79
+        // line 74
         echo "        
         ";
-        // line 80
+        // line 75
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("footer"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 81
+        // line 76
         echo "        
     </div>
     <!-- Wrapper End -->
 
     <!-- ====jQuery Library==== -->
     <script src=\"";
-        // line 86
+        // line 81
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/jquery-3.1.0.min.js");
         echo "\"></script>
 
     <!-- ====Bootstrap Core Script==== -->
     <script src=\"";
-        // line 89
+        // line 84
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/bootstrap.min.js");
         echo "\"></script>
 
     <!-- ====bxSlider Plugin==== -->
     <script src=\"";
-        // line 92
+        // line 87
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/jquery.bxslider.min.js");
         echo "\"></script>
 
     <!-- ====jQuery Validate Plugin==== -->
     <script src=\"";
-        // line 95
+        // line 90
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/jquery.validate.min.js");
         echo "\"></script>
 
     <!-- ====RetinaJS Plugin==== -->
     <script src=\"";
-        // line 98
+        // line 93
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/retina.min.js");
         echo "\"></script>
 
     <!-- ====Main Script==== -->
     <script src=\"";
-        // line 101
+        // line 96
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/main.js");
         echo "\"></script>
     
     <script id=\"mcjs\">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,\"script\",\"https://chimpstatic.com/mcjs-connected/js/users/d1b3449cedbb183c24cad61ce/76c223288ef00160b93d47742.js\");</script>
     
     ";
-        // line 105
+        // line 100
         $_minify = System\Classes\CombineAssets::instance()->useMinify;
         if ($_minify) {
             echo '<script src="'. Request::getBasePath()
@@ -218,7 +216,7 @@ class __TwigTemplate_156471106c2f2ff643544b35c96fc76e950c2333cf1f55a9b1b7e7be71c
         echo '<link rel="stylesheet" property="stylesheet" href="'. Request::getBasePath()
                     .'/modules/system/assets/css/framework.extras'.($_minify ? '-min' : '').'.css">'.PHP_EOL;
         unset($_minify);
-        // line 106
+        // line 101
         echo "    ";
         echo $this->env->getExtension('Cms\Twig\Extension')->assetsFunction('js');
         echo $this->env->getExtension('Cms\Twig\Extension')->displayBlock('scripts');
@@ -240,7 +238,7 @@ class __TwigTemplate_156471106c2f2ff643544b35c96fc76e950c2333cf1f55a9b1b7e7be71c
 
     public function getDebugInfo()
     {
-        return array (  222 => 106,  207 => 105,  200 => 101,  194 => 98,  188 => 95,  182 => 92,  176 => 89,  170 => 86,  163 => 81,  159 => 80,  156 => 79,  154 => 78,  151 => 77,  147 => 76,  128 => 59,  124 => 58,  118 => 54,  114 => 53,  111 => 52,  108 => 51,  97 => 43,  91 => 40,  87 => 39,  81 => 36,  75 => 33,  69 => 30,  56 => 20,  52 => 19,  42 => 12,  37 => 10,  32 => 8,  23 => 1,);
+        return array (  220 => 101,  205 => 100,  198 => 96,  192 => 93,  186 => 90,  180 => 87,  174 => 84,  168 => 81,  161 => 76,  157 => 75,  154 => 74,  152 => 73,  149 => 72,  145 => 71,  134 => 63,  128 => 59,  124 => 58,  118 => 54,  114 => 53,  111 => 52,  108 => 51,  97 => 43,  91 => 40,  87 => 39,  81 => 36,  75 => 33,  69 => 30,  56 => 20,  52 => 19,  42 => 12,  37 => 10,  32 => 8,  23 => 1,);
     }
 
     public function getSourceContext()
@@ -307,12 +305,7 @@ class __TwigTemplate_156471106c2f2ff643544b35c96fc76e950c2333cf1f55a9b1b7e7be71c
     <!-- Preloader Start -->
     <div id=\"preloader\">
         <div class=\"preloader loading\">
-            <span class=\"slice\"></span>
-            <span class=\"slice\"></span>
-            <span class=\"slice\"></span>
-            <span class=\"slice\"></span>
-            <span class=\"slice\"></span>
-            <span class=\"slice\"></span>
+            <img src=\"{{'assets/img/icono-llajwa.png' | theme }}\" style=\"height: 100px; width: auto\">
         </div>
     </div>
     <!-- Preloader End -->

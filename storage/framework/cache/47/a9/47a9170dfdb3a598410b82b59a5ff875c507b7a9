@@ -1,4 +1,4 @@
-1552308662a:1:{s:10:"master.htm";a:5:{s:8:"fileName";s:10:"master.htm";s:7:"content";s:4002:"<!DOCTYPE html>
+1552313732a:1:{s:10:"master.htm";a:5:{s:8:"fileName";s:10:"master.htm";s:7:"content";s:3864:"<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -60,12 +60,7 @@
     <!-- Preloader Start -->
     <div id="preloader">
         <div class="preloader loading">
-            <span class="slice"></span>
-            <span class="slice"></span>
-            <span class="slice"></span>
-            <span class="slice"></span>
-            <span class="slice"></span>
-            <span class="slice"></span>
+            <img src="{{'assets/img/icono-llajwa.png' | theme }}" style="height: 100px; width: auto">
         </div>
     </div>
     <!-- Preloader End -->
@@ -107,7 +102,7 @@
 
 </body>
 </html>
-";s:5:"mtime";i:1552307647;s:6:"markup";s:4001:"<!DOCTYPE html>
+";s:5:"mtime";i:1552313128;s:6:"markup";s:3863:"<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -169,12 +164,7 @@
     <!-- Preloader Start -->
     <div id="preloader">
         <div class="preloader loading">
-            <span class="slice"></span>
-            <span class="slice"></span>
-            <span class="slice"></span>
-            <span class="slice"></span>
-            <span class="slice"></span>
-            <span class="slice"></span>
+            <img src="{{'assets/img/icono-llajwa.png' | theme }}" style="height: 100px; width: auto">
         </div>
     </div>
     <!-- Preloader End -->

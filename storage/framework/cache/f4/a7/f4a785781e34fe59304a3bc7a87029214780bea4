@@ -1,4 +1,4 @@
-1552308662a:1:{s:19:"audio-streaming.htm";a:9:{s:8:"fileName";s:19:"audio-streaming.htm";s:7:"content";s:11663:"title = "Audio Streaming"
+1552313693a:1:{s:19:"audio-streaming.htm";a:9:{s:8:"fileName";s:19:"audio-streaming.htm";s:7:"content";s:11649:"title = "Audio Streaming"
 url = "/audio-streaming"
 layout = "master"
 is_hidden = 0
@@ -55,7 +55,7 @@ is_hidden = 0
 
                     <script>
                         function abrir_player_popup() {
-                            window.open("http://alojamiento-aeromatico.c9users.io/radio-live", "", "width=500,height=290,toolbar=no,location=no,directories=no,status=yes,menubar=no,scrollbars=no,resizable=NO");
+                            window.open("http://www.alojamiento.vip/radio-live", "", "width=500,height=290,toolbar=no,location=no,directories=no,status=yes,menubar=no,scrollbars=no,resizable=NO");
                         }
                     </script>
                     <a href="javascript:abrir_player_popup();"><img src="{{'assets/img/play-radio.svg' | theme }}" width="60px" height="auto" title="Probar radio en vivo" /></a>
@@ -284,7 +284,7 @@ is_hidden = 0
 
 {% partial 'widgets/faqs' %}
 
-{% partial 'widgets/warranty' %}";s:5:"mtime";i:1552269045;s:6:"markup";s:11577:"<!-- Banner Area Start -->
+{% partial 'widgets/warranty' %}";s:5:"mtime";i:1552308199;s:6:"markup";s:11563:"<!-- Banner Area Start -->
 <div id="banner">
 
     <div class="vc-parent">
@@ -336,7 +336,7 @@ is_hidden = 0
 
                     <script>
                         function abrir_player_popup() {
-                            window.open("http://alojamiento-aeromatico.c9users.io/radio-live", "", "width=500,height=290,toolbar=no,location=no,directories=no,status=yes,menubar=no,scrollbars=no,resizable=NO");
+                            window.open("http://www.alojamiento.vip/radio-live", "", "width=500,height=290,toolbar=no,location=no,directories=no,status=yes,menubar=no,scrollbars=no,resizable=NO");
                         }
                     </script>
                     <a href="javascript:abrir_player_popup();"><img src="{{'assets/img/play-radio.svg' | theme }}" width="60px" height="auto" title="Probar radio en vivo" /></a>
