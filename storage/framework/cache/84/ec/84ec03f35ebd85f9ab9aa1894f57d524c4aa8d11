@@ -1,4 +1,4 @@
-1551746592a:1:{s:10:"footer.htm";a:6:{s:8:"fileName";s:10:"footer.htm";s:7:"content";s:4162:"==
+1552269837a:1:{s:10:"footer.htm";a:6:{s:8:"fileName";s:10:"footer.htm";s:7:"content";s:4356:"==
 {% partial 'widgets/mailchimp' %}      
         <!-- Footer Area Start -->
         <footer id="footer">
@@ -36,14 +36,14 @@
                         <div class="footer--contact">
                             <h2>En contacto</h2>
                             <a href="https://m.me/alojamiento.vip" target="_blank" class="btn-block btn--primary btn--ripple"><i class="fa fm fa-comment"></i> Live chat</a>
-                            <a href="https://api.whatsapp.com/send?phone=19783016646&text=Solicitud+de+Soporte+para+Alojamiento+VIP"  target="_blank" class="btn-block btn--primary btn--ripple"><i class="fab fa-whatsapp"></i> +1 (978) 301-6646</a>
+                            <a href="https://api.whatsapp.com/send?phone=19783016646&text=Solicitud+de+Soporte+para+Alojamiento+VIP"  target="_blank" class="btn-block btn--primary btn--ripple"><i class="fab fa-whatsapp"></i> +1 978 301 6646</a>
                             <a href="mailto:soporte@alojamiento.vip"  target="_blank" class="btn-block btn--primary btn--ripple"><i class="fa fm fa-envelope"></i> soporte@alojamiento.vip</a>
 
                             <div class="footer--contact-social">
                                 <ul class="nav navbar-nav">
-                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href="https://www.facebook.com/AlojamientoVipSocial" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="https://www.twitter.com/AlojamientoVip" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="https://www.instagram.com/AlojamientoVip" target="_blank"><i class="fab fa-instagram"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -55,7 +55,7 @@
             <!-- Footer Copyright Start -->
             <div class="footer--copyright text-center">
                 <div class="container">
-                    <p>Hecho con <i class="fas fa-heart"></i> por <a href="https://www.llajwa.club/?ref=Powered-by-Alojamiento.vip" target="_blank">Llajwa Team</a></p>
+                    <p>Hecho con <i class="fas fa-heart" style="color: red"></i> por <a href="https://www.llajwa.club/?ref=Llajwa+Team+powered+Alojamiento+Vip" target="_blank">Llajwa Team</a></p>
                 </div>
             </div>
             <!-- Footer Copyright End -->
@@ -65,7 +65,7 @@
         <div id="backToTop">
             <a href="#top" class="btn--primary btn--ripple"><i class="fas fa-angle-up"></i></a>
         </div>
-        <!-- Back To Top Button Start -->";s:5:"mtime";i:1551723214;s:6:"markup";s:4159:"{% partial 'widgets/mailchimp' %}      
+        <!-- Back To Top Button Start -->";s:5:"mtime";i:1552269178;s:6:"markup";s:4353:"{% partial 'widgets/mailchimp' %}      
         <!-- Footer Area Start -->
         <footer id="footer">
             <div class="container">
@@ -102,14 +102,14 @@
                         <div class="footer--contact">
                             <h2>En contacto</h2>
                             <a href="https://m.me/alojamiento.vip" target="_blank" class="btn-block btn--primary btn--ripple"><i class="fa fm fa-comment"></i> Live chat</a>
-                            <a href="https://api.whatsapp.com/send?phone=19783016646&text=Solicitud+de+Soporte+para+Alojamiento+VIP"  target="_blank" class="btn-block btn--primary btn--ripple"><i class="fab fa-whatsapp"></i> +1 (978) 301-6646</a>
+                            <a href="https://api.whatsapp.com/send?phone=19783016646&text=Solicitud+de+Soporte+para+Alojamiento+VIP"  target="_blank" class="btn-block btn--primary btn--ripple"><i class="fab fa-whatsapp"></i> +1 978 301 6646</a>
                             <a href="mailto:soporte@alojamiento.vip"  target="_blank" class="btn-block btn--primary btn--ripple"><i class="fa fm fa-envelope"></i> soporte@alojamiento.vip</a>
 
                             <div class="footer--contact-social">
                                 <ul class="nav navbar-nav">
-                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href="https://www.facebook.com/AlojamientoVipSocial" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="https://www.twitter.com/AlojamientoVip" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="https://www.instagram.com/AlojamientoVip" target="_blank"><i class="fab fa-instagram"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -121,7 +121,7 @@
             <!-- Footer Copyright Start -->
             <div class="footer--copyright text-center">
                 <div class="container">
-                    <p>Hecho con <i class="fas fa-heart"></i> por <a href="https://www.llajwa.club/?ref=Powered-by-Alojamiento.vip" target="_blank">Llajwa Team</a></p>
+                    <p>Hecho con <i class="fas fa-heart" style="color: red"></i> por <a href="https://www.llajwa.club/?ref=Llajwa+Team+powered+Alojamiento+Vip" target="_blank">Llajwa Team</a></p>
                 </div>
             </div>
             <!-- Footer Copyright End -->

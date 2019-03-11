@@ -1,14 +1,17 @@
-1551746592a:1:{s:10:"master.htm";a:5:{s:8:"fileName";s:10:"master.htm";s:7:"content";s:3640:"<!DOCTYPE html>
+1552269837a:1:{s:10:"master.htm";a:5:{s:8:"fileName";s:10:"master.htm";s:7:"content";s:3899:"<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <title>{{ this.page.title }} • Alojamiento VIP - Simple, potente y económico </title>
     
-    <title>Alojamiento VIP • Simple, potente y económico</title>
+    <meta name="description" content="{{ this.page.meta_description }}">
+    
+    <meta name="title" content="{{ this.page.meta_title }}">
+    
+    <meta name="author" content="^A^ero">
 
     <!-- ====Favicons==== -->
     <link rel="shortcut icon" href="{{'assets/img/favicon.ico' | theme }}" type="image/x-icon">
@@ -19,7 +22,7 @@
     <link href='https://fonts.googleapis.com/css?family=Raleway:300,400,900' rel='stylesheet' type='text/css'>
 
     <!-- ====Font Awesome Stylesheet==== -->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
     <!-- ====Bootstrap Stylesheet==== -->
     <link href="{{'assets/css/bootstrap.min.css' | theme }}" rel="stylesheet">
@@ -42,6 +45,11 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js' | theme }}"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js' | theme }}/1.4.2/respond.min.js' | theme }}"></script>
     <![endif]-->
+    
+    {% styles %}
+    
+    {% partial 'code/analytics' %}
+    
 </head>
 <body>
     <!-- Preloader Start -->
@@ -88,20 +96,26 @@
     <script src="{{'assets/js/main.js' | theme }}"></script>
     
     <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/d1b3449cedbb183c24cad61ce/76c223288ef00160b93d47742.js");</script>
+    
+    {% framework extras %}
+    {% scripts %}    
 
 </body>
 </html>
-";s:5:"mtime";i:1551623646;s:6:"markup";s:3639:"<!DOCTYPE html>
+";s:5:"mtime";i:1551746882;s:6:"markup";s:3898:"<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <title>{{ this.page.title }} • Alojamiento VIP - Simple, potente y económico </title>
     
-    <title>Alojamiento VIP • Simple, potente y económico</title>
+    <meta name="description" content="{{ this.page.meta_description }}">
+    
+    <meta name="title" content="{{ this.page.meta_title }}">
+    
+    <meta name="author" content="^A^ero">
 
     <!-- ====Favicons==== -->
     <link rel="shortcut icon" href="{{'assets/img/favicon.ico' | theme }}" type="image/x-icon">
@@ -112,7 +126,7 @@
     <link href='https://fonts.googleapis.com/css?family=Raleway:300,400,900' rel='stylesheet' type='text/css'>
 
     <!-- ====Font Awesome Stylesheet==== -->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
     <!-- ====Bootstrap Stylesheet==== -->
     <link href="{{'assets/css/bootstrap.min.css' | theme }}" rel="stylesheet">
@@ -135,6 +149,11 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js' | theme }}"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js' | theme }}/1.4.2/respond.min.js' | theme }}"></script>
     <![endif]-->
+    
+    {% styles %}
+    
+    {% partial 'code/analytics' %}
+    
 </head>
 <body>
     <!-- Preloader Start -->
@@ -181,6 +200,9 @@
     <script src="{{'assets/js/main.js' | theme }}"></script>
     
     <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/d1b3449cedbb183c24cad61ce/76c223288ef00160b93d47742.js");</script>
+    
+    {% framework extras %}
+    {% scripts %}    
 
 </body>
 </html>";s:4:"code";N;}}

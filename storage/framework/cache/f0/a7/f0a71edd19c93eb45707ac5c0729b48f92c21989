@@ -1,4 +1,4 @@
-1551746592a:1:{s:14:"menus/main.htm";a:6:{s:8:"fileName";s:14:"menus/main.htm";s:7:"content";s:1833:"==
+1552269837a:1:{s:14:"menus/main.htm";a:6:{s:8:"fileName";s:14:"menus/main.htm";s:7:"content";s:2485:"==
 <div class="header--login-btn">
                             <a href="https://dashboard.alojamiento.vip/clientarea.php" class="btn--primary btn--ripple">Clientes</a>
                         </div>
@@ -12,7 +12,15 @@
                                     <li><a href="https://dashboard.alojamiento.vip/cart.php?a=add&domain=transfer">Transferir</a></li>
                                 </ul>
                             </li>
-                            <li><a href="{{app}}/hosting">Hosting</a></li>
+                            <li class="dropdown">
+                                <a data-toggle="dropdown" style="cursor: pointer">Hosting<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="{{app}}/hosting">Shared Hosting</a></li>
+                                    <li><a href="https://dashboard.alojamiento.vip/cart.php?gid=6">Cloud Hosting</a></li>
+                                    <li><a href="https://dashboard.alojamiento.vip/cart.php?gid=9">VPS Hosting</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="{{app}}/audio-streaming">Streaming</a></li>
                             <li class="dropdown">
                                 <a data-toggle="dropdown" style="cursor: pointer"><i class="fas fa-headset"></i> Soporte<span class="caret"></span></a>
                                 <ul class="dropdown-menu">
@@ -21,7 +29,7 @@
                                     <li><a href="https://dashboard.alojamiento.vip/contact.php">Contacto</a></li>
                                 </ul>
                             </li>
-                        </ul>";s:5:"mtime";i:1551570378;s:6:"markup";s:1830:"<div class="header--login-btn">
+                        </ul>";s:5:"mtime";i:1552260403;s:6:"markup";s:2482:"<div class="header--login-btn">
                             <a href="https://dashboard.alojamiento.vip/clientarea.php" class="btn--primary btn--ripple">Clientes</a>
                         </div>
                         
@@ -34,7 +42,15 @@
                                     <li><a href="https://dashboard.alojamiento.vip/cart.php?a=add&domain=transfer">Transferir</a></li>
                                 </ul>
                             </li>
-                            <li><a href="{{app}}/hosting">Hosting</a></li>
+                            <li class="dropdown">
+                                <a data-toggle="dropdown" style="cursor: pointer">Hosting<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="{{app}}/hosting">Shared Hosting</a></li>
+                                    <li><a href="https://dashboard.alojamiento.vip/cart.php?gid=6">Cloud Hosting</a></li>
+                                    <li><a href="https://dashboard.alojamiento.vip/cart.php?gid=9">VPS Hosting</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="{{app}}/audio-streaming">Streaming</a></li>
                             <li class="dropdown">
                                 <a data-toggle="dropdown" style="cursor: pointer"><i class="fas fa-headset"></i> Soporte<span class="caret"></span></a>
                                 <ul class="dropdown-menu">

@@ -1,0 +1,18 @@
+fields:
+    question:
+        label: Pregunta
+        span: auto
+        type: text
+    page:
+        label: Página
+        options:
+            hosting: 'Shared Hosting'
+            cloud-hosting: 'Cloud Hosting'
+            audio-streaming: 'Audio Streaming'
+        span: auto
+        type: dropdown
+    answer:
+        label: Respuesta
+        size: large
+        span: full
+        type: richeditor

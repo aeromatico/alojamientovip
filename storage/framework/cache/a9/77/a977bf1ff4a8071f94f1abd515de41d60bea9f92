@@ -1,4 +1,4 @@
-1551723039a:1:{s:24:"packs/compare-single.htm";a:6:{s:8:"fileName";s:24:"packs/compare-single.htm";s:7:"content";s:19911:"==
+1552269179a:1:{s:24:"packs/compare-single.htm";a:6:{s:8:"fileName";s:24:"packs/compare-single.htm";s:7:"content";s:20520:"==
 <!-- Price Details Area Start -->
         <div id="priceDetails">
             <div class="container" id="individuales">
@@ -317,6 +317,12 @@
                           <td class="text-center"><i class="fas fa-check"></i></td>
                           <td class="text-center"><i class="fas fa-check"></i></td>
                           <td class="text-center"><i class="fas fa-check"></i></td>
+                        </tr> 
+                        <tr>
+                          <td scope="row"></td>
+                          <td class="text-center"><a href="https://dashboard.alojamiento.vip/cart.php?a=add&pid=7" class="btn--primary btn--ripple">Comprar</a></td>
+                          <td class="text-center"><a href="https://dashboard.alojamiento.vip/cart.php?a=add&pid=9" class="btn--primary btn--ripple">Comprar</a></td>
+                          <td class="text-center"><a href="https://dashboard.alojamiento.vip/cart.php?a=add&pid=8" class="btn--primary btn--ripple">Comprar</a></td>
                         </tr>                         
                       </tbody>
                     </table>
@@ -324,7 +330,7 @@
                 </div>
             </div>
         </div>
-        <!-- Price Details Area End -->";s:5:"mtime";i:1551558539;s:6:"markup";s:19908:"<!-- Price Details Area Start -->
+        <!-- Price Details Area End -->";s:5:"mtime";i:1552268578;s:6:"markup";s:20517:"<!-- Price Details Area Start -->
         <div id="priceDetails">
             <div class="container" id="individuales">
                 <!-- Section Title Start -->
@@ -642,6 +648,12 @@
                           <td class="text-center"><i class="fas fa-check"></i></td>
                           <td class="text-center"><i class="fas fa-check"></i></td>
                           <td class="text-center"><i class="fas fa-check"></i></td>
+                        </tr> 
+                        <tr>
+                          <td scope="row"></td>
+                          <td class="text-center"><a href="https://dashboard.alojamiento.vip/cart.php?a=add&pid=7" class="btn--primary btn--ripple">Comprar</a></td>
+                          <td class="text-center"><a href="https://dashboard.alojamiento.vip/cart.php?a=add&pid=9" class="btn--primary btn--ripple">Comprar</a></td>
+                          <td class="text-center"><a href="https://dashboard.alojamiento.vip/cart.php?a=add&pid=8" class="btn--primary btn--ripple">Comprar</a></td>
                         </tr>                         
                       </tbody>
                     </table>

@@ -1,4 +1,4 @@
-1551746592a:1:{s:11:"hosting.htm";a:9:{s:8:"fileName";s:11:"hosting.htm";s:7:"content";s:1203:"title = "Hosting"
+1552269837a:1:{s:11:"hosting.htm";a:9:{s:8:"fileName";s:11:"hosting.htm";s:7:"content";s:1190:"title = "Hosting"
 url = "/hosting"
 layout = "master"
 is_hidden = 0
@@ -37,9 +37,9 @@ is_hidden = 0
         
         {% partial 'packs/compare-multi' %}
         
-        {% partial 'widgets/faqs-hosting' %}        
+        {% partial 'widgets/faqs' %}        
         
-        {% partial 'widgets/faqs-warranty' %}";s:5:"mtime";i:1551565267;s:6:"markup";s:1133:"<!-- Banner Area Start -->
+        {% partial 'widgets/warranty' %}";s:5:"mtime";i:1552262797;s:6:"markup";s:1120:"<!-- Banner Area Start -->
         <div id="banner">
 
             <div class="vc-parent">
@@ -73,6 +73,6 @@ is_hidden = 0
         
         {% partial 'packs/compare-multi' %}
         
-        {% partial 'widgets/faqs-hosting' %}        
+        {% partial 'widgets/faqs' %}        
         
-        {% partial 'widgets/faqs-warranty' %}";s:4:"code";N;s:5:"title";s:7:"Hosting";s:3:"url";s:8:"/hosting";s:6:"layout";s:6:"master";s:9:"is_hidden";s:1:"0";}}
+        {% partial 'widgets/warranty' %}";s:4:"code";N;s:5:"title";s:7:"Hosting";s:3:"url";s:8:"/hosting";s:6:"layout";s:6:"master";s:9:"is_hidden";s:1:"0";}}

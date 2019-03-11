@@ -9,3 +9,9 @@
 1.0.4:
     - 'Updated table aero_manager_editor'
     - builder_table_update_aero_manager_editor_2.php
+1.0.5:
+    - 'Created table aero_manager_faqs'
+    - builder_table_create_aero_manager_faqs.php
+1.0.6:
+    - 'Updated table aero_manager_faqs'
+    - builder_table_update_aero_manager_faqs.php

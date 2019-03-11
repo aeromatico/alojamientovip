@@ -1,0 +1,126 @@
+1552269116a:1:{s:16:"widgets/faqs.htm";a:6:{s:8:"fileName";s:16:"widgets/faqs.htm";s:7:"content";s:2978:"==
+<?php
+function onStart()
+{
+    
+   try {
+     // adapt your params and query
+     //$this['subcategorias'] = Aero\Manager\Models\Categorias::where('categoria_padre_id',$this->param('id'))->get();
+     $this['faqs'] = Aero\Manager\Models\Faqs::where('page', $this->page->id)->get();
+   } 
+   catch (ModelNotFoundException $ex) {
+     return Redirect::to('/404');  
+   }
+   
+}
+?>
+==
+<!-- FAQ Area Start -->
+        <div id="faq">
+            <div class="container">
+                <!-- Section Title Start -->
+                <div class="section--title">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h2>Preguntas <span>Frecuentes</span></h2>
+                        </div>
+                        <div class="col-md-6">
+                        
+                                
+                            <p><i class="fas fa-hands-helping text-center"></i> Respuestas simples y positivas a todas tus dudas. </p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <!-- Section Title End -->
+                <!-- FAQ Content Start -->
+                <div class="faq--content">
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane fade in active" id="faqTab">
+                            <div class="panel-group accordion" id="faqAccordion" role="tablist">                                      
+                            
+                                {% for c in faqs %}
+                                <!-- FAQ Item Start -->
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab">
+                                        <a href="#faqTabQ{{c.id}}" class="collapsed" role="button" data-toggle="collapse" data-parent="#faqAccordion">
+                                            <h4 class="panel-title" style="font-weight: 400; font-size: 16px; text-transform: none">{{c.question}} <i class="fa fa-minus"></i></h4>
+                                        </a>
+                                    </div>
+                                    <div id="faqTabQ{{c.id}}" class="panel-collapse collapse" role="tabpanel">
+                                        <div class="panel-body">
+                                            <p>{{c.answer | raw}}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- FAQ Item End -->
+                                {% endfor %}
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- FAQ Content End -->
+            </div>
+        </div>
+        <!-- FAQ Area End -->";s:5:"mtime";i:1552266877;s:6:"markup";s:2582:"<!-- FAQ Area Start -->
+        <div id="faq">
+            <div class="container">
+                <!-- Section Title Start -->
+                <div class="section--title">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h2>Preguntas <span>Frecuentes</span></h2>
+                        </div>
+                        <div class="col-md-6">
+                        
+                                
+                            <p><i class="fas fa-hands-helping text-center"></i> Respuestas simples y positivas a todas tus dudas. </p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <!-- Section Title End -->
+                <!-- FAQ Content Start -->
+                <div class="faq--content">
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane fade in active" id="faqTab">
+                            <div class="panel-group accordion" id="faqAccordion" role="tablist">                                      
+                            
+                                {% for c in faqs %}
+                                <!-- FAQ Item Start -->
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab">
+                                        <a href="#faqTabQ{{c.id}}" class="collapsed" role="button" data-toggle="collapse" data-parent="#faqAccordion">
+                                            <h4 class="panel-title" style="font-weight: 400; font-size: 16px; text-transform: none">{{c.question}} <i class="fa fa-minus"></i></h4>
+                                        </a>
+                                    </div>
+                                    <div id="faqTabQ{{c.id}}" class="panel-collapse collapse" role="tabpanel">
+                                        <div class="panel-body">
+                                            <p>{{c.answer | raw}}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- FAQ Item End -->
+                                {% endfor %}
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- FAQ Content End -->
+            </div>
+        </div>
+        <!-- FAQ Area End -->";s:4:"code";s:380:"function onStart()
+{
+    
+   try {
+     // adapt your params and query
+     //$this['subcategorias'] = Aero\Manager\Models\Categorias::where('categoria_padre_id',$this->param('id'))->get();
+     $this['faqs'] = Aero\Manager\Models\Faqs::where('page', $this->page->id)->get();
+   } 
+   catch (ModelNotFoundException $ex) {
+     return Redirect::to('/404');  
+   }
+   
+}";s:17:"_PARSER_ERROR_INI";s:0:"";}}

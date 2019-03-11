@@ -8,6 +8,9 @@ permissions:
     managerEditor:
         tab: Manager
         label: 'Content editor'
+    managerFaqs:
+        tab: Manager
+        label: FAQs
 navigation:
     manager:
         label: Manager
@@ -18,3 +21,7 @@ navigation:
                 label: Editor
                 url: aero/manager/editor/update/1
                 icon: icon-pencil-square-o
+            managerFaqs:
+                label: FAQs
+                url: aero/manager/faqs
+                icon: icon-question-circle

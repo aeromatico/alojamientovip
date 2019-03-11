@@ -177,3 +177,15 @@ thead th {
 .nav-tabs>li.active>a:hover {
     border: 1px solid #F0F0F0 !important;
 }
+
+.aeroPadding20{
+    padding: 20px    
+}
+
+.aeroPadding50{
+    padding: 50px 0 50px 0;    
+}
+        
+audio {
+  width: 200px
+}  

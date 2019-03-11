@@ -1,4 +1,4 @@
-1551723340a:1:{s:23:"packs/compare-multi.htm";a:6:{s:8:"fileName";s:23:"packs/compare-multi.htm";s:7:"content";s:2691:"==
+1552269284a:1:{s:23:"packs/compare-multi.htm";a:6:{s:8:"fileName";s:23:"packs/compare-multi.htm";s:7:"content";s:3331:"==
 <!-- Price Details Area Start -->
         <div id="priceDetails">
             <div class="container">
@@ -45,14 +45,20 @@
                           <td class="text-center">2</td>
                           <td class="text-center">3</td>
                           <td class="text-center">5</td>
-                        </tr>                         
+                        </tr>                           
+                        <tr>
+                          <td scope="row"></td>
+                          <td class="text-center"><a href="https://dashboard.alojamiento.vip/cart.php?a=add&pid=10" class="btn--primary btn--ripple">Comprar</a></td>
+                          <td class="text-center"><a href="https://dashboard.alojamiento.vip/cart.php?a=add&pid=11" class="btn--primary btn--ripple">Comprar</a></td>
+                          <td class="text-center"><a href="https://dashboard.alojamiento.vip/cart.php?a=add&pid=12" class="btn--primary btn--ripple">Comprar</a></td>
+                        </tr>                           
                       </tbody>
                     </table>
                     
                 </div>
             </div>
         </div>
-        <!-- Price Details Area End -->";s:5:"mtime";i:1551722491;s:6:"markup";s:2688:"<!-- Price Details Area Start -->
+        <!-- Price Details Area End -->";s:5:"mtime";i:1552268676;s:6:"markup";s:3328:"<!-- Price Details Area Start -->
         <div id="priceDetails">
             <div class="container">
                 <!-- Section Title Start -->
@@ -98,7 +104,13 @@
                           <td class="text-center">2</td>
                           <td class="text-center">3</td>
                           <td class="text-center">5</td>
-                        </tr>                         
+                        </tr>                           
+                        <tr>
+                          <td scope="row"></td>
+                          <td class="text-center"><a href="https://dashboard.alojamiento.vip/cart.php?a=add&pid=10" class="btn--primary btn--ripple">Comprar</a></td>
+                          <td class="text-center"><a href="https://dashboard.alojamiento.vip/cart.php?a=add&pid=11" class="btn--primary btn--ripple">Comprar</a></td>
+                          <td class="text-center"><a href="https://dashboard.alojamiento.vip/cart.php?a=add&pid=12" class="btn--primary btn--ripple">Comprar</a></td>
+                        </tr>                           
                       </tbody>
                     </table>
                     

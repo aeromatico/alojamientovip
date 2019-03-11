@@ -1,4 +1,4 @@
-1551746592a:1:{s:11:"portada.htm";a:10:{s:8:"fileName";s:11:"portada.htm";s:7:"content";s:2494:"title = "Portada"
+1552269837a:1:{s:11:"portada.htm";a:10:{s:8:"fileName";s:11:"portada.htm";s:7:"content";s:2489:"title = "Portada"
 url = "/"
 layout = "master"
 is_hidden = 0
@@ -64,7 +64,7 @@ pageNumber = "{{ :page }}"
         
         {% partial 'widgets/addons' %}
         
-        {% partial 'widgets/faqs-warranty' %}";s:5:"mtime";i:1551568819;s:6:"markup";s:2196:"{% set e = editor.records[0] %}
+        {% partial 'widgets/warranty' %}";s:5:"mtime";i:1552182939;s:6:"markup";s:2191:"{% set e = editor.records[0] %}
 
         <!-- Promo Area Start -->
         <div id="banner">
@@ -115,4 +115,4 @@ pageNumber = "{{ :page }}"
         
         {% partial 'widgets/addons' %}
         
-        {% partial 'widgets/faqs-warranty' %}";s:4:"code";N;s:5:"title";s:7:"Portada";s:3:"url";s:1:"/";s:6:"layout";s:6:"master";s:9:"is_hidden";s:1:"0";s:18:"builderList editor";a:8:{s:10:"modelClass";s:26:"Aero\Manager\Models\Editor";s:5:"scope";s:1:"-";s:10:"scopeValue";s:12:"{{ :scope }}";s:13:"displayColumn";s:2:"id";s:16:"noRecordsMessage";s:16:"No records found";s:11:"detailsPage";s:1:"-";s:19:"detailsUrlParameter";s:2:"id";s:10:"pageNumber";s:11:"{{ :page }}";}}}
+        {% partial 'widgets/warranty' %}";s:4:"code";N;s:5:"title";s:7:"Portada";s:3:"url";s:1:"/";s:6:"layout";s:6:"master";s:9:"is_hidden";s:1:"0";s:18:"builderList editor";a:8:{s:10:"modelClass";s:26:"Aero\Manager\Models\Editor";s:5:"scope";s:1:"-";s:10:"scopeValue";s:12:"{{ :scope }}";s:13:"displayColumn";s:2:"id";s:16:"noRecordsMessage";s:16:"No records found";s:11:"detailsPage";s:1:"-";s:19:"detailsUrlParameter";s:2:"id";s:10:"pageNumber";s:11:"{{ :page }}";}}}

@@ -1,0 +1,26 @@
+columns:
+    id:
+        label: ID
+        type: number
+        searchable: true
+        sortable: true
+    question:
+        label: Pregunta
+        type: text
+        searchable: true
+        sortable: true
+    page:
+        label: Página
+        type: text
+        searchable: true
+        sortable: true
+    created_at:
+        label: 'Creado en'
+        type: datetime
+        searchable: true
+        sortable: true
+    updated_at:
+        label: 'Actualizado en'
+        type: datetime
+        searchable: true
+        sortable: true
